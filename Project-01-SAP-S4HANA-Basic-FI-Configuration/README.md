@@ -75,3 +75,41 @@ The basic SAP FI configuration for *Nakkineni Solutions Pvt Ltd* is completed al
 SAP FICO Consultant  
 Naveen Solutions Pvt Ltd
 
+
+##Screenshots
+
+### 1. Create Company (OX15)
+![OX15](screenshots/OX15_Create_Company.jpeg)
+
+### 2. Create Company Code (OX02)
+![OX02](screenshots/OX02_Create_Company_Code.jpeg)
+
+### 3. Assign Company and Company Code (OX16)
+![OX16](screenshots/OX16_Assign_Company_Code.jpeg)
+
+### 4. Define Fiscal Year Variant (OB29)
+![OB29](screenshots/OB29_Fiscal_Year.jpeg)
+
+### 5. Assign Fiscal Year Variant to Company Code (OB37)
+![OB37](screenshots/OB37_Assign_FY.jpeg)
+
+### 6. Define Posting Period Variant (OBBO)
+![OBBO](screenshots/OBBO_Posting_Period.jpeg)
+
+### 7. Assign Posting Period Variant to Company Code (OBBP)
+![OBBP](screenshots/OBBP_Assign_Period.jpeg)
+
+### 8. Define Document Types (OBA7)
+![OBA7](screenshots/OBA7_Document_Types.jpeg)
+
+### 9. Define Number Ranges (FBN1)
+![FBN1](screenshots/FBN1_Number_Range.jpeg)
+
+### 10. Create G/L Master (FS00)
+![FS00](screenshots/FS00_GL_Master.jpeg)
+
+### 11. Accounting Posting (F-02)
+![F02](screenshots/F02_Posting.jpeg)
+
+### 12. Display Document (FB03)
+![FB03](screenshots/FB03_Display.jpeg)
