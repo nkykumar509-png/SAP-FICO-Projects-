@@ -73,5 +73,5 @@ The basic SAP FI configuration for *Nakkineni Solutions Pvt Ltd* is completed al
  **Author**
 **Nakkineni Naveen Kumar**  
 SAP FICO Consultant  
-Nakkineni Solutions Pvt Ltd
+Naveen Solutions Pvt Ltd
 
