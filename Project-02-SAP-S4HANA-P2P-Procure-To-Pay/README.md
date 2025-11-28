@@ -24,7 +24,6 @@ Step	Activity	T-Code
 7	Display Invoice Document	FB03
 8	Outgoing Payment to Vendor	F-53
 
-
 3. Sample Posting Entry
 
 Account	Debit	Credit
