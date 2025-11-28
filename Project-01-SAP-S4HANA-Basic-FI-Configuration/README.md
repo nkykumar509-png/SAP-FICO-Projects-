@@ -90,9 +90,8 @@ Naveen Solutions Pvt Ltd
 ### 4. Define Fiscal Year Variant (OB29)
 ![OB29](screenshots/OB29_Fiscal_Year.png.jpeg)
 
-### 5.Assign Fiscal Year Variant to Company Code (OB37)  
+### 5. Assign Fiscal Year Variant to Company Code (OB37)  
 ![OB37](screenshots/OB37_Assing_Fiscal_year_to_compnay_code.jpeg)
-
 ### 6. Define Posting Period Variant (OBBO)  
 ![OBBO](screenshots/OBBO_Posting_Period_Variant_defination.jpeg)
 
