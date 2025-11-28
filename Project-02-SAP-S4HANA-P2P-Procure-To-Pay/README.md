@@ -1,92 +1,51 @@
-PROJECT 2 – P2P (PROCURE TO PAY) CYCLE DOCUMENTATION
+SAP Procure-to-Pay (P2P) End-to-End Cycle
 
-Company: Nakkineni Solutions Pvt Ltd
+Company Name: Nakkineni Solutions Pvt Ltd
 
-Module: SAP FICO / MM Integration
+Module: SAP MM + FI Integration
 
 Version: SAP S/4HANA 2023
 
-Project Name: End-to-End Procure to Pay Cycle
+1. Business Scenario
 
-1. Project Overview
+Nakkineni Solutions Pvt Ltd purchases Office Furniture worth ₹30,000 from vendor Unity Suppliers Pvt Ltd.
+The process includes Purchase Requisition → PO → Goods Receipt → Invoice Posting → Payment.
 
-The Procure-to-Pay (P2P) cycle represents the complete procurement process for materials or services purchased from a vendor.
-This project covers vendor creation, purchase order, goods receipt, invoice posting, and vendor payment for Nakkineni Solutions Pvt Ltd.
+2. P2P Cycle Steps & T-Codes
 
-2. Business Scenario
+Step	Activity	T-Code
 
-Nakkineni Solutions Pvt Ltd purchases Office Furniture worth ₹50,000 from vendor Delhi Traders Pvt Ltd.
-
-End-to-End steps:
-
-1. Create Vendor
-2. Create Purchase Order
-3. Goods Receipt
-4. Invoice Posting
-5. Vendor Payment
-6. Accounting Document Validation
-
-
-3. Steps & T-Codes Used
-
-Step No.	Business Process	T-Code
-
-1	Create Vendor Master	FK01 / XK01
+1	Create Purchase Requisition	ME51N
 2	Create Purchase Order	ME21N
-3	Goods Receipt	MIGO
-4	Invoice Verification	MIRO
-5	Vendor Payment	F-53
-6	Display Accounting Document	FB03
+3	Display Purchase Order	ME23N
+4	Goods Receipt	MIGO
+5	Display Material Document	MB03
+6	Vendor Invoice Posting	MIRO
+7	Display Invoice Document	FB03
+8	Outgoing Payment to Vendor	F-53
 
-4. Configuration Involved
 
-Configuration	T-Code
-
-Define Vendor Account Group	OBD3
-Number Ranges for Vendors	XKN1
-Assign Number Ranges	OBAS
-Reconciliation Account Setup	FS00
-
-5. Accounting Flow
-
-Stage	Debit	Credit
-
-PO (ME21N)	No Accounting Entry	
-MIGO Goods Receipt	Inventory (₹50,000)	GR/IR Clearing A/c
-MIRO Invoice	GR/IR Clearing A/c	Vendor
-F-53 Payment	Vendor	Bank
-
-6. Example Posting
-
-Invoice Posting (MIRO)
+3. Sample Posting Entry
 
 Account	Debit	Credit
 
-GR/IR Clearing A/c	50,000	
-Vendor – Delhi Traders		50,000
+Furniture A/c	30,000	
+Vendor A/c		30,000
 
 
-Payment Posting (F-53)
+Narration: Furniture purchased from vendor.
 
-Account	Debit	Credit
 
-Vendor – Delhi Traders	50,000	
-Bank Account		50,000
+4. Screenshot List
 
-7. Screenshot List for Upload
+Step	Screen Name	Upload Screenshot
 
-Step	T-Code	Screenshot
+ME51N	Purchase Requisition	
+ME21N	Purchase Order	
+MIGO	Goods Receipt	
+MIRO	Invoice Verification	
+F-53	Vendor Payment	
 
-Create Vendor	FK01	Vendor Master Data
-Purchase Order	ME21N	PO Created
-Goods Receipt	MIGO	Material Document
-MIRO Invoice	MIRO	Accounting Document
-Payment	F-53	Payment Document
-Display Document	FB03	Ledger Posting
-
-8. Conclusion
-
-The P2P cycle for Nakkineni Solutions Pvt Ltd has been successfully completed with full financial integration between MM and FI modules, validating procurement and vendor payment processes.
 
 Author
 
