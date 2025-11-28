@@ -76,33 +76,34 @@ SAP FICO Consultant
 Naveen Solutions Pvt Ltd
 
 
-## 📸 Screenshots
+##  SAP FI Configuration Screenshots
 
 ### 1. Create Company (OX15)
 ![OX15](screenshots/OX15_Create_Company.png.jpeg)
 
 ### 2. Create Company Code (OX02)
-![OX02](screenshots/OX02 Create Company Code.png.jpeg)
+![OX02](screenshots/OX02_Create_Company_Code.jpeg)
 
-### 3. Assign Company and Company Code (OX16)
-![OX16](screenshots/OX16 Assign company code to compnay.jpeg)
+### 3. Assign Company to Company Code (OX16)
+![OX16](screenshots/OX16_Assign_Company_Code.jpeg)
 
 ### 4. Define Fiscal Year Variant (OB29)
 ![OB29](screenshots/OB29_Fiscal_Year.png.jpeg)
 
-### 5. Assign Fiscal Year Variant to Company Code (OB37)  
-![OB37](screenshots/OB37_Assing_Fiscal_year_to_compnay_code.jpeg)
-### 6. Define Posting Period Variant (OBBO)  
-![OBBO](screenshots/OBBO_Posting_Period_Variant_defination.jpeg)
+### 5. Assign Fiscal Year Variant to Company Code (OB37)
+![OB37](screenshots/OB37_Assign_FY.jpeg)
 
-### 7. Assign Posting Period Variant to Company Code (OBBP)  
-![OBBP](screenshots/OBBP_Assing_posting_period_variant_to_compnay_code.jpeg)
+### 6. Define Posting Period Variant (OBBO)
+![OBBO](screenshots/OBBO_Posting_Period.jpeg)
 
-### 8. Define Document Types (OBA7)  
-![OBA7](screenshots/OBA7_Document_types_listing_screen.jpeg)
+### 7. Assign Posting Period Variant to Company Code (OBBP)
+![OBBP](screenshots/OBBP_Assign_Posting_Period.jpeg)
 
-### 9.Create G/L Master (FS00)  
-![FS00](screenshots/FS00_GL_master_create_screen.jpeg)
+### 8. Define Document Types (OBA7)
+![OBA7](screenshots/OBA7_Document_Types.jpeg)
+
+### 9. Create G/L Master (FS00)
+![FS00](screenshots/FS00_GL_Master.jpeg)
 
 ### 10. Accounting Posting (F-02)
 ![F02](screenshots/F02_Posting.png.jpeg)
