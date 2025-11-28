@@ -76,40 +76,37 @@ SAP FICO Consultant
 Naveen Solutions Pvt Ltd
 
 
-##Screenshots
+## Screenshots
 
 ### 1. Create Company (OX15)
-![OX15](screenshots/OX15_Create_Company.jpeg)
+![OX15](screenshots/OX15_Create_Company.png.jpeg)
 
 ### 2. Create Company Code (OX02)
-![OX02](screenshots/OX02_Create_Company_Code.jpeg)
+![OX02](screenshots/OX02_Create_Company_Code.png.jpeg)
 
 ### 3. Assign Company and Company Code (OX16)
-![OX16](screenshots/OX16_Assign_Company_Code.jpeg)
+![OX16](screenshots/OX16_Assign_company_code_to_compnay.jpeg)
 
 ### 4. Define Fiscal Year Variant (OB29)
-![OB29](screenshots/OB29_Fiscal_Year.jpeg)
+![OB29](screenshots/OB29_Fiscal_Year.png.jpeg)
 
 ### 5. Assign Fiscal Year Variant to Company Code (OB37)
-![OB37](screenshots/OB37_Assign_FY.jpeg)
+![OB37](screenshots/OB37_Assing_Fiscal_year_to_compnay_code.jpeg)
 
 ### 6. Define Posting Period Variant (OBBO)
-![OBBO](screenshots/OBBO_Posting_Period.jpeg)
+![OBBO](screenshots/OBBO_Posting_Period_Variant_defination.jpeg)
 
 ### 7. Assign Posting Period Variant to Company Code (OBBP)
-![OBBP](screenshots/OBBP_Assign_Period.jpeg)
+![OBBP](screenshots/OBBP_Assing_posting_period_variant_to_compnay.jpeg)
 
 ### 8. Define Document Types (OBA7)
-![OBA7](screenshots/OBA7_Document_Types.jpeg)
+![OBA7](screenshots/OBA7_Document_types_listing_screen.jpeg)
 
-### 9. Define Number Ranges (FBN1)
-![FBN1](screenshots/FBN1_Number_Range.jpeg)
+### 9. Create G/L Master (FS00)
+![FS00](screenshots/FS00_GL_master_create_screen.jpeg)
 
-### 10. Create G/L Master (FS00)
-![FS00](screenshots/FS00_GL_Master.jpeg)
+### 10. Accounting Posting (F-02)
+![F02](screenshots/F02_Posting.png.jpeg)
 
-### 11. Accounting Posting (F-02)
-![F02](screenshots/F02_Posting.jpeg)
-
-### 12. Display Document (FB03)
-![FB03](screenshots/FB03_Display.jpeg)
+### 11. Display Document (FB03)
+![FB03](screenshots/FB03_Display.png.jpeg)
