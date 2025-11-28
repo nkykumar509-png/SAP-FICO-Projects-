@@ -90,19 +90,19 @@ Naveen Solutions Pvt Ltd
 ### 4. Define Fiscal Year Variant (OB29)
 ![OB29](screenshots/OB29_Fiscal_Year.png.jpeg)
 
-### 5. 5. Assign Fiscal Year Variant to Company Code (OB37)  
+### 5.Assign Fiscal Year Variant to Company Code (OB37)  
 ![OB37](screenshots/OB37_Assing_Fiscal_year_to_compnay_code.jpeg)
 
-### 6. 6. Define Posting Period Variant (OBBO)  
+### 6. Define Posting Period Variant (OBBO)  
 ![OBBO](screenshots/OBBO_Posting_Period_Variant_defination.jpeg)
 
-### 7. 7. Assign Posting Period Variant to Company Code (OBBP)  
+### 7. Assign Posting Period Variant to Company Code (OBBP)  
 ![OBBP](screenshots/OBBP_Assing_posting_period_variant_to_compnay_code.jpeg)
 
-### 8. 8. Define Document Types (OBA7)  
+### 8. Define Document Types (OBA7)  
 ![OBA7](screenshots/OBA7_Document_types_listing_screen.jpeg)
 
-### 9. 9. Create G/L Master (FS00)  
+### 9.Create G/L Master (FS00)  
 ![FS00](screenshots/FS00_GL_master_create_screen.jpeg)
 
 ### 10. Accounting Posting (F-02)
