@@ -51,3 +51,18 @@ Author
 Nakkineni Naveen Kumar
 SAP FICO Consultant
 Nakkineni Solutions Pvt Ltd
+
+
+##  SAP P2P Cycle Screenshots
+
+### 1. Purchase Order (ME21N)
+![ME21N](screenshots/ME21N_Purchase_Order.jpeg)
+
+### 2. Goods Receipt (MIGO)
+![MIGO](screenshots/MIGO_Goods_Receipt.jpeg)
+
+### 3. Display Invoice Document (FB03)
+![FB03](screenshots/FB03_Display_Invoice.jpeg)
+
+### 4. Vendor Payment (F-53)
+![F53](screenshots/F53_Vendor_Payment.jpe.jpeg)
