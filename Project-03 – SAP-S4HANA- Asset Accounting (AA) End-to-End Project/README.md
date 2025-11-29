@@ -35,11 +35,7 @@ Vendor A/c		1,50,000
 
 Narration: Office furniture purchased and capitalized.
 
-## Screenshots
-
----
-
-## . Screenshot References
+## Screenshot References (SAP GUI)
 
 ### 1. Define Asset Class (OAOA)
 ![OAOA](screenshots/OAOA_Asset_Class_Creation.jpeg)
@@ -56,14 +52,11 @@ Narration: Office furniture purchased and capitalized.
 ### 5. Define Number Range (AS08)
 ![AS08](screenshots/AS08_Asset_Retirement.jpeg)
 
-### 6. Create Asset Master (AS01)
-![AS01](screenshots/AS01_Asset_Master.jpeg)
+### 6. Display Asset Values (AW01N)
+![AW01N](screenshots/AW01N_Asset_Explorer.jpeg)
 
 ### 7. Asset Acquisition Posting (F-90)
 ![F90](screenshots/F90_Asset_Acquisition_Posting.jpeg)
 
-### 8. Display Asset Values (AW01N)
-![AW01N](screenshots/AW01N_Asset_Explorer.jpeg)
-
-### 9. Transfer Asset Data (OBCL)
+### 8. Transfer Asset Data (OBCL)
 ![OBCL](screenshots/OBCL_Transfer_Asset_Data.jpeg)
