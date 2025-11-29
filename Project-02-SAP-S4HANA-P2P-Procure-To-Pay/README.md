@@ -58,11 +58,17 @@ Nakkineni Solutions Pvt Ltd
 ### 1. Purchase Order (ME21N)
 ![ME21N](screenshots/ME21N_Purchase_Order.jpeg)
 
-### 2. Goods Receipt (MIGO)
+### 2. Display Purchase Order (ME23N)
+![ME23N](screenshots/ME23N_Display_Purchase_Order.jpeg)
+
+### 3. Goods Receipt (MIGO)
 ![MIGO](screenshots/MIGO_Goods_Receipt.jpeg)
 
-### 3. Display Invoice Document (FB03)
+### 4. Invoice Posting (MIRO)
+![MIRO](screenshots/MIRO_Invoice_Posting.jpeg)
+
+### 5. Display Invoice Document (FB03)
 ![FB03](screenshots/FB03_Display_Invoice.jpeg)
 
-### 4. Vendor Payment (F-53)
+### 6. Vendor Payment (F-53)
 ![F53](screenshots/F53_Vendor_Payment.jpe.jpeg)
