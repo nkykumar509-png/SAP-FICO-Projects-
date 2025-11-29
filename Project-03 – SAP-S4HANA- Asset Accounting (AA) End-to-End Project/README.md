@@ -37,26 +37,33 @@ Narration: Office furniture purchased and capitalized.
 
 ## Screenshots
 
-### 1. Assign Depreciation Areas (AFAMA)
-![AFAMA](screenshots/AFAMA_Assignment_of_Depreciation_Area.jpeg)
+---
 
-### 2. Create Asset Class (OAOA)
+## . Screenshot References
+
+### 1. Define Asset Class (OAOA)
 ![OAOA](screenshots/OAOA_Asset_Class_Creation.jpeg)
 
-### 3. Assign Chart of Depreciation (OAYZ)
-![OAYZ](screenshots/OAYZ_Chart_of_Depreciation_Assignment.jpeg)
-
-### 4. Configure Depreciation Area (OADB)
+### 2. Create Chart of Depreciation (OADB)
 ![OADB](screenshots/OADB_Depreciation_Area_Configuration.jpeg)
 
-### 5. Asset Acquisition Posting (F-90)
-![F90](screenshots/F90_Asset_Acquisition_Posting.jpeg)
+### 3. Assign Chart of Depreciation to Company Code (OAYZ)
+![OAYZ](screenshots/OAYZ_Chart_of_Depreciation_Assignment.jpeg)
 
-### 6. Asset Explorer (AW01N)
-![AW01N](screenshots/AW01N_Asset_Explorer.jpeg)
+### 4. Define Depreciation Area (AFAMA)
+![AFAMA](screenshots/AFAMA_Assignment_of_Depreciation_Area.jpeg)
 
-### 7. Asset Retirement (AS08)
+### 5. Define Number Range (AS08)
 ![AS08](screenshots/AS08_Asset_Retirement.jpeg)
 
-### 8. Transfer Asset Data (OBCL)
+### 6. Create Asset Master (AS01)
+![AS01](screenshots/AS01_Asset_Master.jpeg)
+
+### 7. Asset Acquisition Posting (F-90)
+![F90](screenshots/F90_Asset_Acquisition_Posting.jpeg)
+
+### 8. Display Asset Values (AW01N)
+![AW01N](screenshots/AW01N_Asset_Explorer.jpeg)
+
+### 9. Transfer Asset Data (OBCL)
 ![OBCL](screenshots/OBCL_Transfer_Asset_Data.jpeg)
