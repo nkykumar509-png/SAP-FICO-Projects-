@@ -35,30 +35,28 @@ Vendor A/c		1,50,000
 
 Narration: Office furniture purchased and capitalized.
 
----
+### Screenshot References (SAP GUI)
 
-## Screenshot References (SAP GUI)
-
-### 1. Define Asset Class (OAOA)
+#### 1. Define Asset Class (OAOA)
 ![OAOA](screenshots/OAOA_Asset_Class_Creation.jpeg)
 
-### 2. Create Chart of Depreciation (OADB)
+#### 2. Create Chart of Depreciation (OADB)
 ![OADB](screenshots/OADB_Depreciation_Area_Configuration.jpeg)
 
-### 3. Assign Chart of Depreciation to Company Code (OAYZ)
+#### 3. Assign Chart of Depreciation to Company Code (OAYZ)
 ![OAYZ](screenshots/OAYZ_Chart_of_Depreciation_Assignment.jpeg)
 
-### 4. Define Depreciation Area (AFAMA)
+#### 4. Define Depreciation Area (AFAMA)
 ![AFAMA](screenshots/AFAMA_Assignment_of_Depreciation_Area.jpeg)
 
-### 5. Asset Retirement / Number Range (AS08)
+#### 5. Asset Retirement / Number Range (AS08)
 ![AS08](screenshots/AS08_Asset_Retirement.jpeg)
 
-### 6. Display Asset Explorer Values (AW01N)
+#### 6. Display Asset Explorer Values (AW01N)
 ![AW01N](screenshots/AW01N_Asset_Explorer.jpeg)
 
-### 7. Asset Acquisition Posting (F-90)
+#### 7. Asset Acquisition Posting (F-90)
 ![F90](screenshots/F90_Asset_Acquisition_Posting.jpeg)
 
-### 8. Transfer Asset Data (OBCL)
+#### 8. Transfer Asset Data (OBCL)
 ![OBCL](screenshots/OBCL_Transfer_Asset_Data.jpeg)
