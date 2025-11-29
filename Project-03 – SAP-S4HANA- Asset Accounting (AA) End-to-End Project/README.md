@@ -35,6 +35,8 @@ Vendor A/c		1,50,000
 
 Narration: Office furniture purchased and capitalized.
 
+---
+
 ## Screenshot References (SAP GUI)
 
 ### 1. Define Asset Class (OAOA)
@@ -49,10 +51,10 @@ Narration: Office furniture purchased and capitalized.
 ### 4. Define Depreciation Area (AFAMA)
 ![AFAMA](screenshots/AFAMA_Assignment_of_Depreciation_Area.jpeg)
 
-### 5. Define Number Range (AS08)
+### 5. Asset Retirement / Number Range (AS08)
 ![AS08](screenshots/AS08_Asset_Retirement.jpeg)
 
-### 6. Display Asset Values (AW01N)
+### 6. Display Asset Explorer Values (AW01N)
 ![AW01N](screenshots/AW01N_Asset_Explorer.jpeg)
 
 ### 7. Asset Acquisition Posting (F-90)
