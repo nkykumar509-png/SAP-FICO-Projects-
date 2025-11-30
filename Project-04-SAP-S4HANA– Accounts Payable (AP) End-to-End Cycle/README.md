@@ -82,24 +82,29 @@ When paying the vendor:
 
 ## 6. Screenshot References (SAP GUI)
 
-### 1. Vendor Creation (XK01)
-![XK01](screenshots/BP_Create_Vendor_Master.jpeg)
+### 1. Vendor Master Creation (BP)
+![BP](screenshots/BP_Create_Vendor_Master.jpeg)
 
 ### 2. Vendor Invoice Posting (FB60)
 ![FB60](screenshots/FB60_Vendor_Invoice_Posting.jpeg)
 
-### 3. Vendor Line Item Display (FBL1N)
+### 3. FB60 Document Overview
+![FB60 Doc](screenshots/FB60_Document_Overview.jpeg)
+
+### 4. Vendor Line Item Display (FBL1N)
 ![FBL1N](screenshots/FBL1N_Vendor_Line_Items.jpeg)
 
-### 4. Vendor Payment (F-53)
-![F-53](screenshots/F53_Vendor_Payment.jpeg)
+### 5. Vendor Payment Posting (F-53)
+![F53](screenshots/F53_Vendor_Payment_Posting.jpeg)
 
-### 5. Automatic Payment Run Overview (F110)
-![F110](screenshots/F110_Payment_Run_Overview.jpeg)
+### 6. Automatic Payment Run – Parameters (F110)
+![F110 Parameters](screenshots/F110_Payment_Run_Parameters.jpeg)
 
-### 6. Vendor GL Line Item Report (FAGLL03)
-![FAGLL03](screenshots/FAGLL03_Vendor_GL_Line_Items.jpeg)
+### 7. Automatic Payment Run – Status (F110)
+![F110 Status](screenshots/F110_Payment_Run_Status.jpeg)
 
+### 8. Vendor GL Line Item Report (FAGLL03)
+![FAGLL03](screenshots/FAGLL03_GL_Line_Item_Display.jpeg)
 ---
 
 ## Author
