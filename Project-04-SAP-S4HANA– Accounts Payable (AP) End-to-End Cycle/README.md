@@ -83,7 +83,7 @@ When paying the vendor:
 ## 6. Screenshot References (SAP GUI)
 
 ### 1. Vendor Creation (XK01)
-![XK01](screenshots/XK01_Vendor_Creation.jpeg)
+![XK01](screenshots/BP_Create_Vendor_Master.jpeg)
 
 ### 2. Vendor Invoice Posting (FB60)
 ![FB60](screenshots/FB60_Vendor_Invoice_Posting.jpeg)
