@@ -100,19 +100,20 @@ When receiving payment from the customer:
 ### 2. Customer Invoice Posting (FB70)
 ![FB70](screenshots/FB70_Customer_Invoice_Posting.jpeg)
 
-### 3. Customer Line Items Display (FBL5N)
+### 3. FB70 Document Overview
+![FB70 Document Overview](screenshots/FB70_Document_Overview.jpeg)
+
+### 4. Customer Line Items Display (FBL5N)
 ![FBL5N](screenshots/FBL5N_Customer_Line_Items.jpeg)
 
-### 4. Incoming Payment from Customer (F-28)
-![F28](screenshots/F28_Incoming_Payment_Posting.jpeg)
+### 5. Incoming Payment Posting (F-28)
+![F-28](screenshots/F-28_Incoming_Payment_Posting.jpeg)
 
-### 5. Customer Balance / Dunning Overview (FD10N)
+### 6. Customer Balance Display (FD10N)
 ![FD10N](screenshots/FD10N_Customer_Balance_Display.jpeg)
 
-### 6. Customer GL Line Item Report (FAGLL03)
-![FAGLL03](screenshots/FAGLL03_Customer_GL_Line_Items.jpeg)
-
----
+### 7. Customer GL Line Item Report (FAGLL03)
+![FAGLL03](screenshots/FAGLL03_GL_Line_Item_Display.jpeg)
 
 ## Author
 
