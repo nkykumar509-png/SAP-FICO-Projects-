@@ -52,4 +52,34 @@ GL Account: 113100
 5️. Manual Bank Statement Posting
 
 FF67 → Posting → Save document
+FSGLL03- GL View
+
+##  Screenshot References (SAP GUI)
+
+### **1. Create Bank Main G/L Account (FS00)**
+![FS00](screenshots/FS00_Create_Bank_Main_GL.jpeg)
+
+### **2. Create Incoming Bank Sub Account (FS00)**
+![FS00](screenshots/FS00_Create_Incoming_GL.jpeg)
+
+### **3. Create Outgoing Bank Sub Account (FS00)**
+![FS00](screenshots/FS00_Create_Outgoing_GL.jpeg)
+
+### **4. Create House Bank (FI12)**
+![FI12](screenshots/FI12_Create_House_Bank.jpeg)
+
+### **5. Create Bank Account ID (FI12)**
+![FI12](screenshots/FI12_Create_Account_ID.jpeg)
+
+### **6. Manual Bank Statement Posting (FF67)**
+![FF67](screenshots/FF67_Manual_Bank_Statement_Posting.jpeg)
+
+### **7. Bank G/L Line Item Display (FAGLL03)**
+![FAGLL03](screenshots/FAGLL03_Bank_GL_Line_Item_Display.jpeg)
+
+Outcome
+✔ House Bank successfully created and assigned  
+✔ Bank Accounts configured and mapped with G/L Accounts  
+✔ Manual Bank statement posting completed  
+✔ Bank reconciliation validated via G/L line item display
 
