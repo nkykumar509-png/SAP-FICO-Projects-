@@ -26,14 +26,14 @@ Account Group: Bank Accounts
 
 Account Type: Balance Sheet Account
 
-Short Text: HDFC Bank Main A/c
+Short Text: SBI Bank Main A/c
 
 2️ Create Sub Ledger Accounts
 
 GL	Description
 
-113100	HDFC Bank Incoming Clearing
-113200	HDFC Bank Outgoing Clearing
+113100	SBI Bank Incoming Clearing
+113200	SBI Bank Outgoing Clearing
 
 3️ Create House Bank
 
@@ -41,7 +41,7 @@ FI12 → New Entries
 House Bank: HDFC
 Bank Country: IN
 Bank Key: 123456
-Bank Name: HDFC BANK LTD
+Bank Name: SBI BANK LTD
 
 4️ Create Account ID
 
