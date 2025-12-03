@@ -38,46 +38,46 @@ Step	Activity	T-Code
 ![01_SPRO_Activate_Extended_WHT](screenshots/01_SPRO_Activate_Extended_WHT.jpeg)
 
 ### 2. Define Withholding Tax Types (SPRO)
-![02_SPRO_Define_WHT_Tax_Types](screenshots/02_SPRO_Define_WHT_Tax_Types.jpeg)
+![SPRO_Define_WHT_Tax_Types](screenshots/02_SPRO_Define_WHT_Tax_Types.jpeg)
 
 ### 3. Define Reasons for Exemption (SPRO)
-![04_SPRO_Define_Exemption_Reasons](screenshots/04_SPRO_Define_Exemption_Reasons.jpeg)
+![SPRO_Define_Exemption_Reasons](screenshots/04_SPRO_Define_Exemption_Reasons.jpeg)
 
 ### 4. Withholding Tax Country and Region (SPRO)
-![05_SPRO_WHT_Country_Region](screenshots/05_SPRO_WHT_Country_Region.jpeg)
+![SPRO_WHT_Country_Region](screenshots/05_SPRO_WHT_Country_Region.jpeg)
 
 ### 5. Define Tax Calculation Rules (SPRO)
-![06_SPRO_Tax_Calculation_Rules](screenshots/06_SPRO_Tax_Calculation_Rules.jpeg)
+![SPRO_Tax_Calculation_Rules](screenshots/06_SPRO_Tax_Calculation_Rules.jpeg)
 
 ### 6. Assign Withholding Tax Types to Company Code (SPRO)
-![07_SPRO_Assign_WHTTypes_to_CompanyCode](screenshots/07_SPRO_Assign_WHTTypes_to_CompanyCode.jpeg)
+![SPRO_Assign_WHTTypes_to_CompanyCode](screenshots/07_SPRO_Assign_WHTTypes_to_CompanyCode.jpeg)
 
 ### 7. Assign GL Accounts for TDS
-![08_Assign_GL_Accounts_TDS](screenshots/08_Assign_GL_Accounts_TDS.jpeg)
+![Assign_GL_Accounts_TDS](screenshots/08_Assign_GL_Accounts_TDS.jpeg)
 
 ### 8. Professional Fees Expense GL (FS00)
-![09_FS00_Professional_Fees_GL](screenshots/09_FS00_Professional_Fees_GL.jpeg)
+![FS00_Professional_Fees_GL](screenshots/09_FS00_Professional_Fees_GL.jpeg)
 
 ### 9. Contractor Fees Expense GL (FS00)
-![10_FS00_Contractor_Fees_GL](screenshots/10_FS00_Contractor_Fees_GL.jpeg)
+![FS00_Contractor_Fees_GL](screenshots/10_FS00_Contractor_Fees_GL.jpeg)
 
 ### 10. TDS Payable GL (FS00)
-![11_FS00_TDS_Payable_GL](screenshots/11_FS00_TDS_Payable_GL.jpeg)
+![FS00_TDS_Payable_GL](screenshots/11_FS00_TDS_Payable_GL.jpeg)
 
 ### 11. Vendor Master with TDS Settings (BP)
-![12_BP_Vendor_Master_TDS](screenshots/12_BP_Vendor_Master_TDS.jpeg)
+![BP_Vendor_Master_TDS](screenshots/12_BP_Vendor_Master_TDS.jpeg)
 
 ### 12. Vendor Withholding Tax Tab (BP)
-![13_BP_Withholding_Tax_Tab](screenshots/13_BP_Withholding_Tax_Tab.jpeg)
+![BP_Withholding_Tax_Tab](screenshots/13_BP_Withholding_Tax_Tab.jpeg)
 
 ### 13. FB60 – Vendor Invoice Posting with TDS
-![14_FB60_TDS_Invoice_Posting](screenshots/14_FB60_TDS_Invoice_Posting.jpeg)
+![FB60_TDS_Invoice_Posting](screenshots/14_FB60_TDS_Invoice_Posting.jpeg)
 
 ### 14. FB60 – Document Overview
-![15_FB60_Document_Overview](screenshots/15_FB60_Document_Overview.jpeg)
+![FB60_Document_Overview](screenshots/15_FB60_Document_Overview.jpeg)
 
 ### 15. FBL1N – Vendor Line Items with TDS
-![16_FBL1N_Vendor_Line_Items](screenshots/16_FBL1N_Vendor_Line_Items.jpeg)
+![FBL1N_Vendor_Line_Items](screenshots/16_FBL1N_Vendor_Line_Items.jpeg)
 
 ### 16. FAGLL03 – TDS GL Line Items
-![17_FAGLL03_TDS_GL_Line_Items](screenshots/17_FAGLL03_TDS_GL_Line_Items.jpeg)
+![FAGLL03_TDS_GL_Line_Items](screenshots/17_FAGLL03_TDS_GL_Line_Items.jpeg)
