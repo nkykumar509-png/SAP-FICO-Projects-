@@ -11,19 +11,19 @@ Using F.07 Foreign Currency Valuation, the company revalues balances and posts e
 
 ---
 
- SAP Configuration & Posting Steps (With T-Codes)
+ ##  SAP Configuration & Posting Steps (With T-Codes)
 
-Step No.	Description	T-Code
-
-01	Customer Invoice Posting	FB70
-02	Vendor Invoice Posting	FB60
-03	Create Retained Earnings G/L Account	FS00
-04	Assign Retained Earnings Account	OB53
-05	Display Customer Balances	FD10N
-06	Display Vendor Balances	FK10N
-07	Execute Foreign Currency Revaluation	F.07
-08	Check Revaluation Spool Output	F.07
-09	Review Revaluation Job Overview Results	F.07
+| Step | Description | T-Code |
+|------|------------|--------|
+| 01 | Customer Invoice Posting | **FB70** |
+| 02 | Vendor Invoice Posting | **FB60** |
+| 03 | Create Retained Earnings G/L Account | **FS00** |
+| 04 | Assign Retained Earnings Account to Chart of Accounts | **OB53** |
+| 05 | Display Customer Balances | **FD10N** |
+| 06 | Display Vendor Balances | **FK10N** |
+| 07 | Execute Foreign Currency Revaluation | **F.07** |
+| 08 | Check Revaluation Spool Output | **F.07 Spool** |
+| 09 | Review Revaluation Job Overview | **F.07 Job Overview** |
 
 ##  Posting Example for Testing
 
