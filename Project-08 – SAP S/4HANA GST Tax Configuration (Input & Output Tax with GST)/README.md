@@ -130,7 +130,7 @@ GST structure used:
 **20. GST Calculation Details – Customer Invoice (FB70)**  
 ![FB70_GST_Calculation_Details](screenshots/FB70_GST_Calculation_Details.png.jpeg)
 
-**21. Vendor Line Item Display (FBL1N)**  
+*21. Vendor Line Item Display (FBL1N)*  
 ![FBL1N_Vendor_Line_Item_Display](screenshots/FBL1N_Vendor_Line_Item_Display.png.jpeg)
 
 **22. Customer Line Item Display (FBL5N)**  
