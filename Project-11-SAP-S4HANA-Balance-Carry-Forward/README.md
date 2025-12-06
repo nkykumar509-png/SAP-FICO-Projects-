@@ -32,8 +32,6 @@ Using F.07 Foreign Currency Valuation, the company revalues balances and posts e
 | Customer Invoice | **FB70** | **15,000 INR** |
 | Vendor Invoice | **FB60** | **10,000 INR** |
 
- *These invoices must appear before & after executing foreign currency revaluation (F.07).*
-
 ---
 
 ##  Expected Output
