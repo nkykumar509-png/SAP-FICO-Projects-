@@ -135,3 +135,42 @@ Accurate ledger updates and transparent cash flow tracking
 | Total Receipts | 15,000 |
 | Total Payments / Expenses | 15,000 |
 | **Closing Balance** | **0.00** |
+
+
+##  Screenshots
+
+### 01. Cash From Bank Account (FS00)
+![Cash From Bank Account](screenshots/FS00_Cash_From_Bank_Account.png.jpeg)
+
+### 02. Cash To Bank Account (FS00)
+![Cash To Bank Account](screenshots/FS00_Cash_To_Bank_Account.png.jpeg)
+
+### 03. Cash Purchase Expense Account (FS00)
+![Cash Purchase Expense Account](screenshots/FS00_Cash_Purchase_Expense_Account.png.jpeg)
+
+### 04. Cash Sales Account (FS00)
+![Cash Sales Account](screenshots/FS00_Cash_Sales_Account.png.jpeg)
+
+### 05. Petty Cash Account (FS00)
+![Petty Cash Account](screenshots/FS00_Petty_Cash_Account.png.jpeg)
+
+### 06. Define Number Range (FBCJC1)
+![Define Number Range](screenshots/FBCJC1_Number_Range.png.jpeg)
+
+### 07. Setup Cash Journal (FBCJC0)
+![Setup Cash Journal](screenshots/FBCJC0_Setup_Cash_Journal.png.jpeg)
+
+### 08. Assign Business Transactions (FBCJC2)
+![Assign Business Transactions](screenshots/FBCJC2_Assign_Business_Transactions.png.jpeg)
+
+### 09. Define Print Parameters (FBCJC3)
+![Define Print Parameters](screenshots/FBCJC3_Setup_Print_Parameters.png.jpeg)
+
+### 10. Cash Receipt Entry (FBCJ)
+![Cash Receipt Entry](screenshots/FBCJ_Cash_Receipt_Entry.png.jpeg)
+
+### 11. Cash Payment Entry (FBCJ)
+![Cash Payment Entry](screenshots/FBCJ_Cash_Payment_Entry.png.jpeg)
+
+### 12. Print Petty Cash Journal (FBCJ)
+![Printed Petty Cash Journal](screenshots/FBCJ_Print_Petty_Cash_Journal.png.jpeg)
