@@ -1,12 +1,12 @@
 Project 09 – Petty Cash Journal in SAP S/4HANA
 
-📌 Business Objective
+ Business Objective
 
 The purpose of this project is to configure and manage Petty Cash transactions in SAP S/4HANA to record small everyday business expenses and receipts efficiently without involving major banking processes. This enables organizations to monitor day-to-day expenses, maintain transparency, and ensure proper accounting control.
 
 ---
 
-📌 Business Scenario
+ Business Scenario
 
 Musashi Auto Pvt. Ltd. maintains a petty cash book for daily operational activities such as employee reimbursements, small purchases, and urgent payments.
 In this project, we created Petty Cash Journal and posted the following transactions:
@@ -25,7 +25,7 @@ Printed Cash Journal Report
 
 ---
 
- ## 🛠 SAP Configuration Steps (With T-Codes)
+ ##  SAP Configuration Steps (With T-Codes)
 
 | Step No | Configuration Activity | T-Code |
 |--------:|------------------------|--------|
@@ -40,7 +40,7 @@ Printed Cash Journal Report
 | 9 | Post Petty Cash Transactions | FBCJ |
 
 ---
-## 💵 Posting Cash Transactions in FBCJ
+##  Posting Cash Transactions in FBCJ
 
 | Type | Transaction Description | Amount (INR) | T-Code |
 |------|-------------------------|--------------|--------|
