@@ -27,23 +27,25 @@ Step	Configuration Activity	T-Code
 05	Execute Financial Statement Report	F.01
 06	Print / Export Financial Statement	F.01
 
+##  Screenshots
+
 ### 01. Create Financial Statement Version (OB58)
-![OB58 Create Financial Statement Version](screenshots/OB58_Create_Financial_Statement_Version.png)
+![OB58_Create_Financial_Statement_Version](screenshots/OB58_Create_Financial_Statement_Version.png.jpeg)
 
 ### 02. Assign Chart of Accounts to FSV (OBY6)
-![OBY6 Assign Chart of Accounts](screenshots/OBY6_Assign_Chart_of_Accounts_to_FSV.png)
+![OBY6_Assign_Chart_of_Accounts_to_FSV](screenshots/OBY6_Assign_Chart_of_Accounts_to_FSV.png.jpeg)
 
 ### 03. Insert Nodes – Assets / Liabilities / Income / Expenses (OB58)
-![Insert Nodes](screenshots/OB58_Insert_Nodes_Assets_Liabilities_Income_Expenses.png)
+![OB58_Insert_Nodes_Assets_Liabilities_Income_Expenses](screenshots/OB58_Insert_Nodes_Assets_Liabilities_Income_Expenses.png.jpeg)
 
 ### 04. Assign GL Accounts to Nodes (OB58)
-![Assign GL Accounts](screenshots/OB58_Assign_GL_Accounts_to_Nodes.png)
+![OB58_Assign_GL_Accounts_to_Nodes](screenshots/OB58_Assign_GL_Accounts_to_Nodes.png.jpeg)
 
 ### 05. Execute Financial Statement Report (F.01)
-![Execute F.01](screenshots/F01_Execute_Financial_Statement_Report.png)
+![F01_Execute_Financial_Statement_Report](screenshots/F01_Execute_Financial_Statement_Report.png.jpeg)
 
-### 06. Print / PDF / Export Excel (F.01)
-![Print F.01](screenshots/F01_Print_Export_Financial_Statement.png)
+### 06. Print / Export Financial Statement (F.01)
+![F01_Print_Export_Financial_Statement](screenshots/F01_Print_Export_Financial_Statement.png.jpeg)
 
 Final Output
 
