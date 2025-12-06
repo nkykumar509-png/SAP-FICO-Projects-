@@ -22,107 +22,66 @@ IGST 18%
 
 
 
----
+-GST Configuration Steps (with T-Codes)
 
-📍 Steps Performed
+Step No.	Configuration Activity	T-Code	Purpose
 
-1. GST Configuration
-
-Step	T-Code	Screenshot
-
-Define Condition Types	OBYZ	OBYZ_Condition_Types.png.jpeg
-Define / Assign Calculation Procedure	OBYZ	OBYZ_Calculation_Procedure.png.jpeg
-Assign Country to Calculation Procedure	OBCN	OBCN_Assign_Country_To_Procedure.png.jpeg
-
-
-
----
-
-2. GL Accounts for GST
-
-Step	T-Code	Screenshot
-
-Create Input GST GL Accounts	FS00	FS00_Input_GST_GL_Accounts.png.jpeg
-Create Output GST GL Accounts	FS00	FS00_Output_GST_GL_Accounts.png.jpeg
-Purchase A/C	FS00	FS00_Purchase_Account.png.jpeg
-Sales A/C	FS00	FS00_Sales_Account.png.jpeg
+01	Define GST Condition Types	OBYZ	Create GST tax condition types
+02	Define & Maintain Calculation Procedure	OBYZ	Structure calculation sequence
+03	Assign Country to Calculation Procedure	OBCN	Link procedure with country India
+04	Maintain Tax Codes	FTXP	Create GST tax codes (Input & Output)
+05	Create Input GST GL Accounts	FS00	CGST, SGST, IGST Input accounts
+06	Create Output GST GL Accounts	FS00	CGST, SGST, IGST Output accounts
+07	Create Purchase / Sales Account	FS00	Revenue & expense posting
+08	Assign GL Accounts to Tax Keys	OB40	Automatic account posting
+09	Create Vendor Master	BP	Supplier record
+10	Create Customer Master	BP	Customer record
+11	Vendor Invoice Posting	FB60	Input tax calculation
+12	Customer Invoice Posting	FB70	Output tax calculation
+13	Vendor Line Item Display	FBL1N	Check accounting effect
+14	Customer Line Item Display	FBL5N	Review posting impact
+15	Display Accounting Document	FB03	Review FI document
 
 
 
 ---
 
-3. Assign GST GLs to Tax Keys
+ Screenshot File List (To Attach in Report)
 
-Step	T-Code	Screenshot
+Screenshot Description	File Name
 
-Assign Input CGST	OB40	OB40_Assign_Input_CGST_GL.png.jpeg
-Assign Input SGST	OB40	OB40_Assign_Input_SGST_GL.png.jpeg
-Assign Input IGST	OB40	OB40_Assign_Input_IGST_GL.png.jpeg
-Assign Output CGST	OB40	OB40_Assign_Output_CGST_GL.png.jpeg
-Assign Output SGST	OB40	OB40_Assign_Output_SGST_GL.png.jpeg
-Assign Output IGST	OB40	OB40_Assign_Output_IGST_GL.png.jpeg
-
-
-
----
-
-4. Tax Code Creation
-
-Step	T-Code	Screenshot
-
-Maintain GST Tax Code	FTXP	FTXP_Input_Output_GST_Tax_Code.png.jpeg
-
-
-
----
-
-5. Master Data
-
-Step	Type	Screenshot
-
-Vendor Master	BP	BP_Vendor_Master.png.jpeg
-Customer Master	BP	BP_Customer_Master.png.jpeg
+Define Condition Types	OBYZ_Condition_Types.png.jpeg
+Calculation Procedure	OBYZ_Calculation_Procedure.png.jpeg
+Assign Country to Procedure	OBCN_Assign_Country_To_Procedure.png.jpeg
+Input & Output GST Tax Code	FTXP_Input_Output_GST_Tax_Code.png.jpeg
+Input GST GL Accounts	FS00_Input_GST_GL_Accounts.png.jpeg
+Output GST GL Accounts	FS00_Output_GST_GL_Accounts.png.jpeg
+Purchase Account	FS00_Purchase_Account.png.jpeg
+Sales Account	FS00_Sales_Account.png.jpeg
+OB40 – Assign Input CGST	OB40_Assign_Input_CGST_GL.png.jpeg
+OB40 – Assign Input SGST	OB40_Assign_Input_SGST_GL.png.jpeg
+OB40 – Assign Input IGST	OB40_Assign_Input_IGST_GL.png.jpeg
+OB40 – Assign Output CGST	OB40_Assign_Output_CGST_GL.png.jpeg
+OB40 – Assign Output SGST	OB40_Assign_Output_SGST_GL.png.jpeg
+OB40 – Assign Output IGST	OB40_Assign_Output_IGST_GL.png.jpeg
+Vendor Master BP	BP_Vendor_Master.png.jpeg
+Customer Master BP	BP_Customer_Master.png.jpeg
+Vendor Invoice Posting FB60	FB60_Vendor_Invoice_Posting.png.jpeg
+GST Calculation FB60	FB60_GST_Calculation_Details.png.jpeg
+Customer Invoice FB70	FB70_Customer_Invoice_Posting.png.jpeg
+GST Calculation FB70	FB70_GST_Calculation_Details.png.jpeg
+Vendor Line Item	FBL1N_Vendor_Line_Item_Display.png.jpeg
+Customer Line Item	FBL5N_Customer_Line_Item_Display.png.jpeg
+Accounting Document FB03	FB03_Accounting_Document_Display.png.jpeg
 
 
 
 ---
 
-6. Transaction Postings
+🎯 Result
 
-Step	T-Code	Screenshot
+✔ GST fully configured
+✔ Automatic GST GL postings working correctly
+✔ Vendor & customer invoices processed
+✔ Reporting & reconciliation validated
 
-Vendor Invoice Posting (GST Input)	FB60	FB60_Vendor_Invoice_Posting.png.jpeg
-GST Calculation details	FB60	FB60_GST_Calculation_Details.png.jpeg
-Display Vendor Line Items	FBL1N	FBL1N_Vendor_Line_Item_Display.png.jpeg
-Customer Invoice Posting (GST Output)	FB70	FB70_Customer_Invoice_Posting.png.jpeg
-GST Calculation details	FB70	FB70_GST_Calculation_Details.png.jpeg
-Display Customer Line Items	FBL5N	FBL5N_Customer_Line_Item_Display.png.jpeg
-Accounting Document Display	FB03	FB03_Accounting_Document_Display.png.jpeg
-
----
-
- Result
-
-✔ GST successfully configured in SAP S/4HANA
-✔ FB60 & FB70 invoices posted with correct GST calculations
-✔ Accounting entries reflected in FBL1N & FBL5N
-✔ Complete End-to-End GST cycle implemented
-
-
----
-
- Skills Covered
-
-GST Configuration
-
-Automatic Account Determination
-
-FS00 GL Creation
-
-BP Master Data
-
-FB60 Vendor Invoice
-
-FB70 Customer Invoice
-
-FBL1N / FBL5N Reporting
