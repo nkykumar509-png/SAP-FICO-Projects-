@@ -25,31 +25,30 @@ Printed Cash Journal Report
 
 ---
 
- SAP Configuration Steps (With T-Codes)
+ ## 🛠 SAP Configuration Steps (With T-Codes)
 
-Step	Configuration Activity	T-Code
-
-1	Create Cash on Hand Account	FS00
-2	Create Cash Purchase Expense Account	FS00
-3	Create Cash Sales Account	FS00
-4	Create Petty Cash Account	FS00
-5	Define Number Ranges for Petty Cash	FBCJC1
-6	Set Up Cash Journal	FBCJC0
-7	Assign Business Transactions	FBCJC2
-8	Define Print Parameters for Cash Journal	FBCJC3
-9	Post Petty Cash Transactions	FBCJ
+| Step No | Configuration Activity | T-Code |
+|--------:|------------------------|--------|
+| 1 | Create Cash on Hand Account | FS00 |
+| 2 | Create Cash Purchase Expense Account | FS00 |
+| 3 | Create Cash Sales Account | FS00 |
+| 4 | Create Petty Cash Account | FS00 |
+| 5 | Define Number Range for Cash Journal | FBCJC1 |
+| 6 | Set Up Cash Journal | FBCJC0 |
+| 7 | Assign Business Transactions to Cash Journal | FBCJC2 |
+| 8 | Define Print Parameters for Cash Journal | FBCJC3 |
+| 9 | Post Petty Cash Transactions | FBCJ |
 
 ---
+## 💵 Posting Cash Transactions in FBCJ
 
-Posting Transactions
-
-Type	Transaction Description	T-Code
-
-Receipt	Customer cash receipt	FBCJ
-Receipt	Cash transfer from bank	FBCJ
-Payment	Cash payment to vendor	FBCJ
-Expense	Cash purchase entry	FBCJ
-Print	Petty Cash Journal Summary	FBCJ → Print Cash Journal
+| Type | Transaction Description | Amount (INR) | T-Code |
+|------|-------------------------|--------------|--------|
+| Receipt | Customer Cash Receipt | 5,000 | FBCJ |
+| Receipt | Cash Transfer From Bank | 10,000 | FBCJ |
+| Expense | Vendor Payment | 2,000 | FBCJ |
+| Expense | Cash Purchase Expense | 3,000 | FBCJ |
+| Expense | Cash Transfer To Bank | 10,000 | FBCJ |
 
  Business Outcome
 
@@ -128,6 +127,11 @@ Accurate ledger updates and transparent cash flow tracking
 - Cash Purchase Expense: ₹3,000
 - Cash Transfer back to Bank: ₹10,000
 
-**Total Receipts: ₹15,000**  
-**Total Payments & Expenses: ₹15,000**  
-**Final Closing Balance: ₹0.00
+ Printed Petty Cash Journal – Final Summary
+
+| Particular | Amount (INR) |
+|------------|--------------|
+| Opening Balance | 0.00 |
+| Total Receipts | 15,000 |
+| Total Payments / Expenses | 15,000 |
+| **Closing Balance** | **0.00** |
