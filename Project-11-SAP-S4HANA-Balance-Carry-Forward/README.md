@@ -48,12 +48,12 @@ Using F.07 Foreign Currency Valuation, the company revalues balances and posts e
 
 | Step | Screenshot |
 |------|------------|
-| 09 | ![F07 Job Overview](./screenshots/F07_Job_Overview.png) |
-| 08 | ![F07 Spool Display](./screenshots/F07_Spool_Display.png) |
-| 07 | ![F07 Posting Results](./screenshots/F07_Posting_Results.png) |
-| 06 | ![Display Customer Balances](./screenshots/FD10N_Display_Customer_Balances.png) |
+| 01 | ![F07 Job Overview](./screenshots/F07_Job_Overview.png) |
+| 02 | ![F07 Spool Display](./screenshots/F07_Spool_Display.png) |
+| 03 | ![F07 Posting Results](./screenshots/F07_Posting_Results.png) |
+| 04 | ![Display Customer Balances](./screenshots/FD10N_Display_Customer_Balances.png) |
 | 05 | ![Display Vendor Balances](./screenshots/FK10N_Display_Vendor_Balances.png) |
-| 04 | ![Assign Retained Earnings](./screenshots/OB53_Assign_Retained_Earnings.png) |
-| 03 | ![Create Retained Earnings GL](./screenshots/FS00_Create_Retained_Earnings_GL.png) |
-| 02 | ![Vendor Invoice Posting](./screenshots/FB60_Vendor_Invoice_Posting.png) |
-| 01 | ![Customer Invoice Posting](./screenshots/FB70_Customer_Invoice_Posting.png) |
+| 06 | ![Assign Retained Earnings](./screenshots/OB53_Assign_Retained_Earnings.png) |
+| 07 | ![Create Retained Earnings GL](./screenshots/FS00_Create_Retained_Earnings_GL.png) |
+| 08 | ![Vendor Invoice Posting](./screenshots/FB60_Vendor_Invoice_Posting.png) |
+| 09 | ![Customer Invoice Posting](./screenshots/FB70_Customer_Invoice_Posting.png) |
