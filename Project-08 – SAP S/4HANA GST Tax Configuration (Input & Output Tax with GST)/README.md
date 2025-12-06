@@ -43,39 +43,98 @@ GST structure used:
 
 ---
 
-### Screenshot File List (as used in this project)
-
-| Screenshot Description                     | File Name                                       |
-|-------------------------------------------|-------------------------------------------------|
-| Define Condition Types                    | OBYZ_Condition_Types.png.jpeg                   |
-| Define Calculation Procedure              | OBYZ_Calculation_Procedure.png.jpeg             |
-| Assign Country to Procedure               | OBCN_Assign_Country_To_Procedure.png.jpeg       |
-| Input & Output GST Tax Code               | FTXP_Input_Output_GST_Tax_Code.png.jpeg         |
-| Input GST GL Accounts                     | FS00_Input_GST_GL_Accounts.png.jpeg             |
-| Output GST GL Accounts                    | FS00_Output_GST_GL_Accounts.png.jpeg            |
-| Purchase Account                          | FS00_Purchase_Account.png.jpeg                  |
-| Sales Account                             | FS00_Sales_Account.png.jpeg                     |
-| OB40 – Assign Input CGST GL              | OB40_Assign_Input_CGST_GL.png.jpeg              |
-| OB40 – Assign Input IGST GL              | OB40_Assign_Input_IGST_GL.png.jpeg              |
-| OB40 – Assign Input SGST GL              | OB40_Assign_Input_SGST_GL.png.jpeg              |
-| OB40 – Assign Output CGST GL             | OB40_Assign_Output_CGST_GL.png.jpeg             |
-| OB40 – Assign Output IGST GL             | OB40_Assign_Output_IGST_GL.png.jpeg             |
-| OB40 – Assign Output SGST GL             | OB40_Assign_Output_SGST_GL.png.jpeg             |
-| Vendor Master (BP)                        | BP_Vendor_Master.png.jpeg                       |
-| Customer Master (BP)                     | BP_Customer_Master.png.jpeg                     |
-| Vendor Invoice Posting (FB60)             | FB60_Vendor_Invoice_Posting.png.jpeg            |
-| GST Calculation Details – Vendor (FB60)   | FB60_GST_Calculation_Details.png.jpeg           |
-| Customer Invoice Posting (FB70)           | FB70_Customer_Invoice_Posting.png.jpeg          |
-| GST Calculation Details – Customer (FB70) | FB70_GST_Calculation_Details.png.jpeg           |
-| Vendor Line Item Display                  | FBL1N_Vendor_Line_Item_Display.png.jpeg         |
-| Customer Line Item Display                | FBL5N_Customer_Line_Item_Display.png.jpeg       |
-| Accounting Document Display (FB03)        | FB03_Accounting_Document_Display.png.jpeg       |
-
----
-
 ### Outcome
 
 - GST configuration completed successfully for company code **MUPL**  
 - Automatic GST postings triggered via **OB40**  
 - Vendor and customer invoices posted with correct input/output GST  
 - Line item reports (**FBL1N / FBL5N**) and accounting document (**FB03**) validated
+
+  ### Screenshot References
+
+#### 1. GST Configuration – SPRO & Tax Settings
+
+**1. Define GST Condition Types (OBYZ)**  
+![OBYZ_Condition_Types](screenshots/OBYZ_Condition_Types.png.jpeg)
+
+**2. Define / Check GST Calculation Procedure (OBYZ)**  
+![OBYZ_Calculation_Procedure](screenshots/OBYZ_Calculation_Procedure.png.jpeg)
+
+**3. Assign Country IN to Procedure TAXINN (OBCN)**  
+![OBCN_Assign_Country_To_Procedure](screenshots/OBCN_Assign_Country_To_Procedure.png.jpeg)
+
+**4. Maintain Input & Output GST Tax Codes (FTXP)**  
+![FTXP_Input_Output_GST_Tax_Code](screenshots/FTXP_Input_Output_GST_Tax_Code.png.jpeg)
+
+---
+
+#### 2. GL Master – GST & Revenue / Expense
+
+**5. Input GST GL Accounts (FS00)**  
+![FS00_Input_GST_GL_Accounts](screenshots/FS00_Input_GST_GL_Accounts.png.jpeg)
+
+**6. Output GST GL Accounts (FS00)**  
+![FS00_Output_GST_GL_Accounts](screenshots/FS00_Output_GST_GL_Accounts.png.jpeg)
+
+**7. Purchase Account (FS00)**  
+![FS00_Purchase_Account](screenshots/FS00_Purchase_Account.png.jpeg)
+
+**8. Sales Account (FS00)**  
+![FS00_Sales_Account](screenshots/FS00_Sales_Account.png.jpeg)
+
+---
+
+#### 3. OB40 – Automatic GST Posting
+
+**9. OB40 – Assign Input CGST GL**  
+![OB40_Assign_Input_CGST_GL](screenshots/OB40_Assign_Input_CGST_GL.png.jpeg)
+
+**10. OB40 – Assign Input SGST GL**  
+![OB40_Assign_Input_SGST_GL](screenshots/OB40_Assign_Input_SGST_GL.png.jpeg)
+
+**11. OB40 – Assign Input IGST GL**  
+![OB40_Assign_Input_IGST_GL](screenshots/OB40_Assign_Input_IGST_GL.png.jpeg)
+
+**12. OB40 – Assign Output CGST GL**  
+![OB40_Assign_Output_CGST_GL](screenshots/OB40_Assign_Output_CGST_GL.png.jpeg)
+
+**13. OB40 – Assign Output SGST GL**  
+![OB40_Assign_Output_SGST_GL](screenshots/OB40_Assign_Output_SGST_GL.png.jpeg)
+
+**14. OB40 – Assign Output IGST GL**  
+![OB40_Assign_Output_IGST_GL](screenshots/OB40_Assign_Output_IGST_GL.png.jpeg)
+
+---
+
+#### 4. Master Data – Vendor & Customer
+
+**15. Vendor Master – BP**  
+![BP_Vendor_Master](screenshots/BP_Vendor_Master.png.jpeg)
+
+**16. Customer Master – BP**  
+![BP_Customer_Master](screenshots/BP_Customer_Master.png.jpeg)
+
+---
+
+#### 5. GST Posting & Reports
+
+**17. Vendor Invoice Posting with GST (FB60)**  
+![FB60_Vendor_Invoice_Posting](screenshots/FB60_Vendor_Invoice_Posting.png.jpeg)
+
+**18. GST Calculation Details – Vendor Invoice (FB60)**  
+![FB60_GST_Calculation_Details](screenshots/FB60_GST_Calculation_Details.png.jpeg)
+
+**19. Customer Invoice Posting with GST (FB70)**  
+![FB70_Customer_Invoice_Posting](screenshots/FB70_Customer_Invoice_Posting.png.jpeg)
+
+**20. GST Calculation Details – Customer Invoice (FB70)**  
+![FB70_GST_Calculation_Details](screenshots/FB70_GST_Calculation_Details.png.jpeg)
+
+**21. Vendor Line Item Display (FBL1N)**  
+![FBL1N_Vendor_Line_Item_Display](screenshots/FBL1N_Vendor_Line_Item_Display.png.jpeg)
+
+**22. Customer Line Item Display (FBL5N)**  
+![FBL5N_Customer_Line_Item_Display](screenshots/FBL5N_Customer_Line_Item_Display.png.jpeg)
+
+**23. Accounting Document Display (FB03)**  
+![FB03_Accounting_Document_Display](screenshots/FB03_Accounting_Document_Display.png.jpeg)
