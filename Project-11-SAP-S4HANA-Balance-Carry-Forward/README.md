@@ -42,16 +42,16 @@ Using F.07 Foreign Currency Valuation, the company revalues balances and posts e
 ✔ Revaluation spool report reviewed in **F.07 Spool**  
 ✔ Revaluation job details shown in **F.07 Job Overview**
 
-## 📁 Screenshot Attachments
+## Screenshots
 
-| Step | Screenshot |
-|------|------------|
-| 01 | ![F07 Job Overview](./screenshots/F07_Job_Overview.png) |
-| 02 | ![F07 Spool Display](./screenshots/F07_Spool_Display.png) |
-| 03 | ![F07 Posting Results](./screenshots/F07_Posting_Results.png) |
-| 04 | ![Display Customer Balances](./screenshots/FD10N_Display_Customer_Balances.png) |
-| 05 | ![Display Vendor Balances](./screenshots/FK10N_Display_Vendor_Balances.png) |
-| 06 | ![Assign Retained Earnings](./screenshots/OB53_Assign_Retained_Earnings.png) |
-| 07 | ![Create Retained Earnings GL](./screenshots/FS00_Create_Retained_Earnings_GL.png) |
-| 08 | ![Vendor Invoice Posting](./screenshots/FB60_Vendor_Invoice_Posting.png) |
-| 09 | ![Customer Invoice Posting](./screenshots/FB70_Customer_Invoice_Posting.png) |
+| No. | Description | Markdown Code |
+|-----|-------------|---------------|
+| 1 | Customer Invoice Posting (FB70) | `![FB70 Customer Invoice Posting](screenshots/FB70_Customer_Invoice_Posting.png.jpeg)` |
+| 2 | Vendor Invoice Posting (FB60) | `![FB60 Vendor Invoice Posting](screenshots/FB60_Vendor_Invoice_Posting.png.jpeg)` |
+| 3 | Create Retained Earnings G/L Account (FS00) | `![FS00 Create Retained Earnings Account](screenshots/FS00_Create_Retained_Earnings_Account.png.jpeg)` |
+| 4 | Assign Retained Earnings Account to Chart of Accounts (OB53) | `![OB53 Assign Retained Earnings Account](screenshots/OB53_Assign_Retained_Earnings_Account.png.jpeg)` |
+| 5 | Display Customer Balances (FD10N) | `![FD10N Display Customer Balances](screenshots/FD10N_Display_Customer_Balances.png.jpeg)` |
+| 6 | Display Vendor Balances (FK10N) | `![FK10N Display Vendor Balances](screenshots/FK10N_Display_Vendor_Balances.png.jpeg)` |
+| 7 | Foreign Currency Revaluation – Posting Result (F.07) | `![F07 Posting Result](screenshots/F07_Posting_Result.png.jpeg)` |
+| 8 | Foreign Currency Revaluation – Spool Output (F.07) | `![F07 Spool Output](screenshots/F07_Spool_Output.png.jpeg)` |
+| 9 | Foreign Currency Revaluation – Job Overview (F.07) | `![F07 Job Overview](screenshots/F07_Job_Overview.png.jpeg)` |
