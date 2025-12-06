@@ -13,9 +13,9 @@ GST structure used:
 
 | Tax Type | Example Rate |
 |---------|--------------|
-| CGST    | 9%           |
-| SGST    | 9%           |
-| IGST    | 18%          |
+| CGST    | 6%           |
+| SGST    | 6%           |
+| IGST    | 12%          |
 
 ---
 
