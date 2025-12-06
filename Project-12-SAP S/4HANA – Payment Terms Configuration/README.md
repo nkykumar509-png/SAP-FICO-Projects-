@@ -56,3 +56,30 @@ System should automatically calculate baseline date, due date, and discount in F
 📌 Improves cash flow management
 📌 Minimizes manual errors
 📌 Discount benefits for early payment
+
+
+###  Screenshots
+
+ **Define Payment Terms**
+![OBB8 Define Payment Terms](screenshots/OBB8_Define_Payment_Terms.png.jpeg)
+
+ **Define Discount & Due-Date Rules**
+![OBB8 Discount and Due-Date Rules](screenshots/OBB8_Discount_and_Due_Date_Rules.png.jpeg)
+
+ **Assign Payment Terms to Vendor**
+![Assign Payment Terms to Vendor](screenshots/BP_Assign_Payment_Terms_to_Vendor.png.jpeg)
+
+ **Assign Payment Terms to Customer**
+![Assign Payment Terms to Customer](screenshots/BP_Assign_Payment_Terms_to_Customer.png.jpeg)
+
+ **Vendor Invoice Discount Test**
+![FB60 Vendor Invoice Discount Test](screenshots/FB60_Vendor_Invoice_Discount_Test.png.jpeg)
+
+ **Customer Invoice Discount Test**
+![FB70 Customer Invoice Discount Test](screenshots/FB70_Customer_Invoice_Discount_Test.png.jpeg)
+
+ **Display Vendor Discount Calculation**
+![FBL1N Display Discount Calculation](screenshots/FBL1N_Display_Discount_Calculation.png.jpeg)
+
+ **Display Customer Discount Calculation**
+![FBL5N Display Discount Calculation](screenshots/FBL5N_Display_Discount_Calculation.png.jpeg)
