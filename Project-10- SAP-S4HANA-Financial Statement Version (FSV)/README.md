@@ -16,16 +16,16 @@ This project demonstrates configuring FSV and generating the Financial Statement
 
 ---
 
- SAP Configuration Steps (With T-Codes)
+##  SAP Configuration Steps (With T-Codes)
 
-Step	Configuration Activity	T-Code
-
-01	Create Financial Statement Version	OB58
-02	Assign Chart of Accounts to FSV	OBY6
-03	Insert Nodes (Assets, Liabilities, Income, Expenses)	OB58
-04	Assign GL Accounts to relevant nodes	OB58
-05	Execute Financial Statement Report	F.01
-06	Print / Export Financial Statement	F.01
+| Step | Configuration Activity | T-Code |
+|------|------------------------|--------|
+| 01 | Create Financial Statement Version | OB58 |
+| 02 | Assign Chart of Accounts to FSV | OBY6 |
+| 03 | Insert Nodes (Assets, Liabilities, Income & Expenses) | OB58 |
+| 04 | Assign GL Accounts to Nodes | OB58 |
+| 05 | Execute Financial Statement Report | F.01 |
+| 06 | Print / Export Financial Statement Report | F.01 |
 
 ##  Screenshots
 
