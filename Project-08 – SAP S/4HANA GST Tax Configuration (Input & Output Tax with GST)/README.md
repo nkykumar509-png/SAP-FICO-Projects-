@@ -1,49 +1,128 @@
-Project-08 – SAP S/4HANA GST (Goods & Services Tax) Configuration
+Project 08 – GST Configuration & Supplier/Customer Invoice Posting (FB60 / FB70)
 
-Objective: Configure GST taxation structure in SAP S/4HANA for India including creation of tax procedure, tax codes (I1/O1), access sequence, condition types, assignment of GL accounts, vendor tax master data update and invoice posting validation via FB60/MIRO and FB70.
+SAP FICO – GST End-to-End Configuration with FB60 & FB70 Posting
 
-Business Scenario –
+ Business Scenario
 
-The client requires the SAP consulting team to configure GST end-to-end in SAP S/4HANA so that:
+Musashi Auto Pvt. Ltd. (MUPL) is implementing GST in SAP S/4HANA.
+The requirement is to configure GST condition types and calculation procedure, maintain GST GL accounts, assign tax codes, and post business transactions:
 
- Business Requirements
+Vendor Invoice with GST using FB60
 
-GST must be automatically calculated during AP invoice posting in FB60 / MIRO
+Customer Invoice with GST using FB70
 
-GST must be automatically calculated during AR invoice posting in FB70
 
-Separate GL accounts should be hit for Input GST (CGST/SGST/IGST) and Output GST
+The GST structure includes:
 
-GST posting must appear in Vendor line item display (FBL1N) and GST GL reporting (FAGLL03)
+CGST 9%
 
-GST tax codes must be configured for different tax rates such as I1 / O1 (18% GST)
+SGST 9%
 
-Scope of Work:
+IGST 18%
 
-SPRO configuration of GST Tax Procedure (ZGST)
 
-Define and assign condition types for CGST, SGST, IGST
 
-Maintain access sequences and calculation rules
+---
 
-Assign Tax Procedure to Country (IN)
+📍 Steps Performed
 
-Create GST Tax Codes (I1 / O1) using FTXP
+1. GST Configuration
 
-Assign GST Input/Output GL accounts via OB40
+Step	T-Code	Screenshot
 
-Update GST registration & tax classification in BP Vendor Master
+Define Condition Types	OBYZ	OBYZ_Condition_Types.png.jpeg
+Define / Assign Calculation Procedure	OBYZ	OBYZ_Calculation_Procedure.png.jpeg
+Assign Country to Calculation Procedure	OBCN	OBCN_Assign_Country_To_Procedure.png.jpeg
 
-Post AP & AR invoices with GST in FB60 / MIRO / FB70
 
-Validate GST postings through FBL1N / FBL5N & FAGLL03
 
-Accurate statutory GST tax calculation
-✔ Automated posting improves efficiency & reduces manual errors
-✔ GST compliance with government taxation laws
-✔ Transparent financial reporting for audits & returns
+---
 
-Outcome: 
-✔ GST calculated automatically during invoice posting
-✔ Separate posting to CGST, SGST & IGST GL accounts
-✔ Fully configured GST tax flow for AP & AR cycles in SAP S/4HANA
+2. GL Accounts for GST
+
+Step	T-Code	Screenshot
+
+Create Input GST GL Accounts	FS00	FS00_Input_GST_GL_Accounts.png.jpeg
+Create Output GST GL Accounts	FS00	FS00_Output_GST_GL_Accounts.png.jpeg
+Purchase A/C	FS00	FS00_Purchase_Account.png.jpeg
+Sales A/C	FS00	FS00_Sales_Account.png.jpeg
+
+
+
+---
+
+3. Assign GST GLs to Tax Keys
+
+Step	T-Code	Screenshot
+
+Assign Input CGST	OB40	OB40_Assign_Input_CGST_GL.png.jpeg
+Assign Input SGST	OB40	OB40_Assign_Input_SGST_GL.png.jpeg
+Assign Input IGST	OB40	OB40_Assign_Input_IGST_GL.png.jpeg
+Assign Output CGST	OB40	OB40_Assign_Output_CGST_GL.png.jpeg
+Assign Output SGST	OB40	OB40_Assign_Output_SGST_GL.png.jpeg
+Assign Output IGST	OB40	OB40_Assign_Output_IGST_GL.png.jpeg
+
+
+
+---
+
+4. Tax Code Creation
+
+Step	T-Code	Screenshot
+
+Maintain GST Tax Code	FTXP	FTXP_Input_Output_GST_Tax_Code.png.jpeg
+
+
+
+---
+
+5. Master Data
+
+Step	Type	Screenshot
+
+Vendor Master	BP	BP_Vendor_Master.png.jpeg
+Customer Master	BP	BP_Customer_Master.png.jpeg
+
+
+
+---
+
+6. Transaction Postings
+
+Step	T-Code	Screenshot
+
+Vendor Invoice Posting (GST Input)	FB60	FB60_Vendor_Invoice_Posting.png.jpeg
+GST Calculation details	FB60	FB60_GST_Calculation_Details.png.jpeg
+Display Vendor Line Items	FBL1N	FBL1N_Vendor_Line_Item_Display.png.jpeg
+Customer Invoice Posting (GST Output)	FB70	FB70_Customer_Invoice_Posting.png.jpeg
+GST Calculation details	FB70	FB70_GST_Calculation_Details.png.jpeg
+Display Customer Line Items	FBL5N	FBL5N_Customer_Line_Item_Display.png.jpeg
+Accounting Document Display	FB03	FB03_Accounting_Document_Display.png.jpeg
+
+---
+
+ Result
+
+✔ GST successfully configured in SAP S/4HANA
+✔ FB60 & FB70 invoices posted with correct GST calculations
+✔ Accounting entries reflected in FBL1N & FBL5N
+✔ Complete End-to-End GST cycle implemented
+
+
+---
+
+ Skills Covered
+
+GST Configuration
+
+Automatic Account Determination
+
+FS00 GL Creation
+
+BP Master Data
+
+FB60 Vendor Invoice
+
+FB70 Customer Invoice
+
+FBL1N / FBL5N Reporting
