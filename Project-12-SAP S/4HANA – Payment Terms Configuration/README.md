@@ -13,19 +13,18 @@ System should automatically calculate baseline date, due date, and discount in F
 
 ---
 
- SAP Configuration Steps (with T-Codes)
+SAP Configuration Steps (With T-Codes)
 
-Step No	Activity Description	T-Code
+Step	Activity Description	T-Code
 
-1	Define Payment Terms	OBB8
-2	Define Baseline Date Rules	OBB8
-3	Add Installment Payment if required	OBB9 (Optional)
-4	Assign Payment Terms to Vendor Master	BP
-5	Assign Payment Terms to Customer Master	BP
-6	Vendor Invoice Entry	FB60
-7	Customer Invoice Entry	FB70
-8	Display Discount & Due-Date Calculation	FBL1N / FBL5N
-
+01	Define Payment Terms	OBB8
+02	Define Baseline Date Rules	OBB8
+03	Add Installment Payment (Optional)	OBB9
+04	Assign Payment Terms to Vendor Master	BP
+05	Assign Payment Terms to Customer Master	BP
+06	Vendor Invoice Entry	FB60
+07	Customer Invoice Entry	FB70
+08	Display Discount & Due-Date Calculation	FBL1N / FBL5N
 
 Posting Example for Testing
 
