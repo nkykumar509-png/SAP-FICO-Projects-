@@ -21,9 +21,14 @@ It helps organizations to maintain cash-flow and payment discipline by sending a
 
 ##  Posting Example for Testing
 
-| Customer | T-Code | Amount | Delay | Dunning Level |
-|----------|--------|---------|--------|----------------|
-| CUST-01 | **FB70** | 20,000 INR | 30 Days Overdue | Level-1 |
+| Doc Number | Doc Date    | Currency | Amount     | Due Date    | Arrears Days | Dunning Level |
+|------------|-------------|-----------|------------|--------------|----------------|----------------|
+| 1135       | 20.09.2025  | INR       | 97,000.00  | 20.09.2025   | 10             | 1              |
+| 1134       | 26.09.2025  | INR       | 175,000.00 | 26.09.2025   | 4              | 0              |
+
+| Dunning Charge | Total Due Items | Balance of Account |
+|----------------|-----------------|---------------------|
+| INR 100.00     | INR 272,100.00  | INR 272,000.00      |
 
 ---
 
