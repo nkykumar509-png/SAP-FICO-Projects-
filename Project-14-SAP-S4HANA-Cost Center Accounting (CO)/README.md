@@ -47,16 +47,14 @@ Musashi Auto Pvt. Ltd. wants to manage internal expenses by department and analy
 📍 Enhanced financial decision-making for management  
 📍 Clear visibility of department-wise variances  
 
-
-![OKKP Maintain Controlling Area](screenshots/01_OKKP_Maintain_Controlling_Area.png)
-![Assign Company Code to CO Area](screenshots/02_OKKP_Assign_Company_Code.png)
-![Maintain Planning Version OKEQ](screenshots/03_OKEQ_Maintain_Version.png)
-![CO Number Range KANK](screenshots/04_KANK_Number_Range_CO.png)
-![Primary Cost GL FS00](screenshots/05_FS00_Stationary_GL.png)
-![Secondary Cost Element FS00](screenshots/06_FS00_Secondary_Cost_Element.png)
-![Create Cost Center Group OKEON](screenshots/07_OKEON_Cost_Center_Group.png)
-![KS01 Create Cost Center](screenshots/08_KS01_Create_Cost_Center.png)
-![Expense Posting F-02](screenshots/09_F02_Post_To_Cost_Center.png)
-![Display Document Entry View](screenshots/10_F02_Display_Document_Data_Entry.png)
-![Cost Center Planning KP06](screenshots/11_KP06_Planning_Costs.png)
-![Cost Center Actual Plan Variance](screenshots/12_SALR_87013611_Cost_Center_Report.png)
+![OKKP Maintain Controlling Area](screenshots/OKKP_Maintain_Controlling_Area.png.jpeg)
+![OKEQ Maintain Version](screenshots/OKEQ_Maintain_Version.png.jpeg)
+![KANK Number Range for CO](screenshots/KANK_Number_Range_for_CO.png.jpeg)
+![FS00 Primary Cost Element - Stationary Expense](screenshots/FS00_Stationary_Expense_GL_Account.png.jpeg)
+![FS00 Secondary Cost Element](screenshots/FS00_Secondary_Cost_Element.png.jpeg)
+![OKEON Create Cost Center Groups](screenshots/OKEON_Create_Cost_Center_Groups.png.jpeg)
+![KS01 Create Cost Center](screenshots/KS01_Create_Cost_Center.png.jpeg)
+![F-02 Post GL to Cost Center](screenshots/F02_Post_GL_to_Cost_Center.png.jpeg)
+![Display Document Entry View](screenshots/F02_Display_Document_Entry_View.png.jpeg)
+![KP06 Cost Center Planning](screenshots/KP06_Cost_Center_Planning.png.jpeg)
+![Cost Center Report](screenshots/SALR_87012611_Cost_Center_Report.png.jpeg)
