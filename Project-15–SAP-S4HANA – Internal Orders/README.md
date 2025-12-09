@@ -58,39 +58,38 @@ Support management budgeting	Helps compare planned vs actual cost later
 | Posting shown in Order Report KOB1 | ✔ |
 | Variance & reporting available | ✔ |
 
-### FS00 – Create Telephone Expenses G/L Account
+### FS00 – Create Telephone Expenses G/L Account  
 **T-Code:** FS00  
-![FS00 – Create Telephone Expenses]("./screenshots/statistical order/FS00_Create_Telephone_Expenses.png.jpeg")
+![FS00 – Create Telephone Expenses](./screenshots/statistical%20order/FS00_Create_Telephone_Expenses.png.jpeg)
 
-### KOT2_OPA – Create Internal Order Type (Statistical Order)
+### KOT2_OPA – Create Internal Order Type (Statistical Order)  
 **T-Code:** KOT2_OPA  
-![KOT2_OPA – Create Order Type]("./screenshots/statistical order/KOT2_Create_Order_Type.png.jpeg")
+![KOT2_OPA – Create Order Type](./screenshots/statistical%20order/KOT2_Create_Order_Type.png.jpeg)
 
-### KO01 – Create Statistical Internal Order
+### KO01 – Create Statistical Internal Order  
 **T-Code:** KO01  
-![KO01 – Create Statistical Internal Order]("./screenshots/statistical order/KO01_Create_Statistical_Order.png.jpeg")
+![KO01 – Create Statistical Internal Order](./screenshots/statistical%20order/KO01_Create_Statistical_Order.png.jpeg)
 
-### KO03 – Display Internal Order
+### KO03 – Display Internal Order  
 **T-Code:** KO03  
-![KO03 – Display Internal Order]("./screenshots/statistical order/KO03_Display_Internal_Order.png.jpeg")
+![KO03 – Display Internal Order](./screenshots/statistical%20order/KO03_Display_Internal_Order.png.jpeg)
 
-### KO02 – Change Internal Order
+### KO02 – Change Internal Order  
 **T-Code:** KO02  
-![KO02 – Change Internal Order]("./screenshots/statistical order/KO02_Change_Internal_Order.png.jpeg")
+![KO02 – Change Internal Order](./screenshots/statistical%20order/KO02_Change_Internal_Order.png.jpeg)
 
-### FB60 – Vendor Invoice Posting
+### FB60 – Vendor Invoice Posting (Telephone Expense)  
 **T-Code:** FB60  
-![FB60 – Post Telephone Invoice]("./screenshots/statistical order/FB60_Post_Telephone_Invoice.png.jpeg")
+![FB60 – Post Telephone Invoice](./screenshots/statistical%20order/FB60_Post_Telephone_Invoice.png.jpeg)
 
-### FB03 – Display Invoice Document
+### FB03 – Display Vendor Invoice Document  
 **T-Code:** FB03  
-![FB03 – Display Invoice]("./screenshots/statistical order/FB60_Display_Invoice.png.jpeg")
+![FB03 – Display Invoice](./screenshots/statistical%20order/FB60_Display_Invoice.png.jpeg)
 
-### KOB1 – Display Cost Line Items
+### KOB1 – Display Cost Line Items for Statistical Order  
 **T-Code:** KOB1  
-![KOB1 – Cost Line Items]("./screenshots/statistical order/KOB1_Display_Cost_Line_Items.png.jpeg")
+![KOB1 – Cost Line Items](./screenshots/statistical%20order/KOB1_Display_Cost_Line_Items.png.jpeg)
 
-### S_ALR_87013019 – Cost Order Report
+### S_ALR_87013019 – Cost Order Report (Statistical Order)  
 **T-Code:** S_ALR_87013019  
-![S_ALR_87013019 – Cost Order Report]("./screenshots/statistical order/S_ALR_87013019_Cost_Order_Report.png.jpeg")
-
+![S_ALR_87013019 – Cost Order Report](./screenshots/statistical%20order/S_ALR_87013019_Cost_Order_Report.png.jpeg)
