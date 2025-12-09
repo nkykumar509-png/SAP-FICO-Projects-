@@ -58,13 +58,56 @@ Support management budgeting	Helps compare planned vs actual cost later
 | Posting shown in Order Report KOB1 | ✔ |
 | Variance & reporting available | ✔ |
 
-## 📂 Screenshot References
+## 📂 Screenshot References – Statistical Internal Order (Telephone Expenses)
+
+### 🧾 FS00 – Create Telephone Expense G/L
+**T-Code:** FS00  
 ![FS00_Create_Telephone_Expenses](./screenshots/FS00_Create_Telephone_Expenses.png.jpeg)
+
+---
+
+### 🧾 KOT2 – Create Internal Order Type (Statistical Order)
+**T-Code:** KOT2_OPA  
 ![KOT2_Create_Order_Type](./screenshots/KOT2_Create_Order_Type.png.jpeg)
+
+---
+
+### 🧾 KO01 – Create Statistical Internal Order
+**T-Code:** KO01  
 ![KO01_Create_Statistical_Order](./screenshots/KO01_Create_Statistical_Order.png.jpeg)
+
+---
+
+### 🧾 KO03 – Display Internal Order
+**T-Code:** KO03  
 ![KO03_Display_Internal_Order](./screenshots/KO03_Display_Internal_Order.png.jpeg)
+
+---
+
+### 🧾 KO02 – Change Internal Order (Control / Edit Master)
+**T-Code:** KO02  
 ![KO02_Change_Internal_Order](./screenshots/KO02_Change_Internal_Order.png.jpeg)
+
+---
+
+### 🧾 FB60 – Vendor Invoice Posting for Telephone Expense
+**T-Code:** FB60  
 ![FB60_Post_Telephone_Invoice](./screenshots/FB60_Post_Telephone_Invoice.png.jpeg)
+
+---
+
+### 🧾 FB60 – Display Document / Invoice Overview
+**T-Code:** FB03 / FB60 Document Overview  
 ![FB60_Display_Invoice](./screenshots/FB60_Display_Invoice.png.jpeg)
+
+---
+
+### 🧾 KOB1 – Display Actual Cost Document Line Items
+**T-Code:** KOB1  
 ![KOB1_Display_Cost_Line_Items](./screenshots/KOB1_Display_Cost_Line_Items.png.jpeg)
+
+---
+
+### 🧾 S_ALR_87013019 – Internal Order Cost Report
+**T-Code:** S_ALR_87013019  
 ![S_ALR_87013019_Cost_Order_Report](./screenshots/S_ALR_87013019_Cost_Order_Report.png.jpeg)
