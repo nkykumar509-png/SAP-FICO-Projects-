@@ -59,12 +59,12 @@ Support management budgeting	Helps compare planned vs actual cost later
 | Variance & reporting available | ✔ |
 
 ## 📂 Screenshot References
-![FS00_Create_Telephone_Expenses](./screenshots/FS00_Create_Telephone_Expenses.png)
-![KOT2_Create_Order_Type](./screenshots/KOT2_Create_Order_Type.png)
-![KO01_Create_Statistical_Order](./screenshots/KO01_Create_Statistical_Order.png)
-![KO03_Display_Internal_Order](./screenshots/KO03_Display_Internal_Order.png)
-![KO02_Change_Internal_Order](./screenshots/KO02_Change_Internal_Order.png)
-![FB60_Post_Telephone_Invoice](./screenshots/FB60_Post_Telephone_Invoice.png)
-![FB60_Display_Invoice](./screenshots/FB60_Display_Invoice.png)
-![KOB1_Display_Cost_Line_Items](./screenshots/KOB1_Display_Cost_Line_Items.png)
-![S_ALR_87013019_Cost_Order_Report](./screenshots/S_ALR_87013019_Cost_Order_Report.png)
+![FS00_Create_Telephone_Expenses](./screenshots/FS00_Create_Telephone_Expenses.png.jpeg)
+![KOT2_Create_Order_Type](./screenshots/KOT2_Create_Order_Type.png.jpeg)
+![KO01_Create_Statistical_Order](./screenshots/KO01_Create_Statistical_Order.png.jpeg)
+![KO03_Display_Internal_Order](./screenshots/KO03_Display_Internal_Order.png.jpeg)
+![KO02_Change_Internal_Order](./screenshots/KO02_Change_Internal_Order.png.jpeg)
+![FB60_Post_Telephone_Invoice](./screenshots/FB60_Post_Telephone_Invoice.png.jpeg)
+![FB60_Display_Invoice](./screenshots/FB60_Display_Invoice.png.jpeg)
+![KOB1_Display_Cost_Line_Items](./screenshots/KOB1_Display_Cost_Line_Items.png.jpeg)
+![S_ALR_87013019_Cost_Order_Report](./screenshots/S_ALR_87013019_Cost_Order_Report.png.jpeg)
