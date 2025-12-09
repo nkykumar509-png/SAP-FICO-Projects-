@@ -57,4 +57,4 @@ Musashi Auto Pvt. Ltd. wants to manage internal expenses by department and analy
 ![F-02 Post GL to Cost Center](screenshots/F02_Post_GL_to_Cost_Center.png.jpeg)
 ![Display Document Entry View](screenshots/F02_Display_Document_Entry_View.png.jpeg)
 ![KP06 Cost Center Planning](screenshots/KP06_Cost_Center_Planning.png.jpeg)
-![Cost Center Report](screenshots/SALR_87012611_Cost_Center_Report.png.jpeg)
+![Cost Center Report](screenshots/SALR_87912611_Cost_Center_Report.png.jpeg)
