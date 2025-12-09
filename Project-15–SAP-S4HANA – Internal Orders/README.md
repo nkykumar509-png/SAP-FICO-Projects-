@@ -20,6 +20,12 @@ Although the internal order is used for reporting, the actual cost should still 
 | Posting Method | FI Posting (F-02) |
 | Expected Reporting | KOB1 / S_ALR_87013019 |
 
+##  Business Example
+
+| Document No. | G/L Account | Description | Amount | Cost Center | Order | Posting Method |
+|--------------|-------------|-------------|--------|-------------|--------|----------------|
+| 1019 | 400607 | Telephone Expenses | 100,000 INR | MU2001 | 1000540 | F-02 (Debit) |
+| 1019 | 200101 | HDFC Bank A/c | 100,000 INR | — | — | F-02 (Credit) |
 
 Objective
 Result
