@@ -35,4 +35,12 @@
 | 07 | Display Actual Cost Line Items | KOB1 |
 | 08 | Display Cost Center / Order Report | S_ALR_87013019 |
 | 09 | Try Settlement (System Message – Cannot settle statistical order) | KO88 |
+## 📊 Expected Output
 
+| Result | Status |
+|--------|--------|
+| Telephone expense posted successfully | ✔ |
+| Internal Order is Statistical (No Settlement Allowed) | ✔ |
+| Cost visible in Cost Center MU2001 | ✔ |
+| Posting shown in Order Report KOB1 | ✔ |
+| Variance & reporting available | ✔ |
