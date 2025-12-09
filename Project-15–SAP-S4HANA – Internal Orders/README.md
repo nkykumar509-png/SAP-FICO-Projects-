@@ -1,4 +1,12 @@
-## 🧾 Business Scenario – Statistical Internal Order for Telephone Expenses
+Statistical Internal Order for Telephone Expenses
+
+Business Scenario 
+
+In an organization, certain overhead expenses such as telephone bills, electricity bills, office maintenance etc., must be monitored and controlled effectively.
+To track such indirect expenses, SAP S/4HANA provides Statistical Internal Orders.
+
+In this project, the company Musashi Auto Pvt. Ltd. (MUPL) wants to track Telephone Expenses separately for analysis purposes.
+Although the internal order is used for reporting, the actual cost should still post to the cost center, meaning the internal order must be statistical (not real order).
 
 | Business Requirement | Description |
 |----------------------|-------------|
@@ -13,16 +21,15 @@
 | Expected Reporting | KOB1 / S_ALR_87013019 |
 
 
-## 🎯 Objective
+Objective
+Result
 
-| Goal | Result |
-|------|--------|
-| Track Telephone expenses individually | Better cost visibility & decision making |
-| Use Statistical Internal Order | Order used only for reporting, actual posting to cost center |
-| Analyze posting reports | View transactions via KOB1 & Order report |
-| Support management budgeting | Compare planned vs actual cost |****
+Track Telephone expenses individually	Better cost visibility & decision making
+Use Statistical Internal Order	Order only for reporting, cost center receives actual cost
+Analyze posting report	View expenses in KOB1 and Cost order report
+Support management budgeting	Helps compare planned vs actual cost later
 
-## 🧾 SAP Posting Flow
+##  SAP Posting Flow
 
 | Step | Activity | T-Code |
 |-------|----------|---------|
