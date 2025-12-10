@@ -37,49 +37,49 @@ Screenshots
 
 ### Define Standard Hierarchy  
 **T-Code:** KCH2 / KCH1  
-![Define Standard Hierarchy](./screenshots/profit_center/Define_Standard_Hierarhy.png.jpeg)
+![Define Standard Hierarchy](./screenshots/Define_Standard_Hierarchy.png.jpeg)
 
 ---
 
 ### KE51 – Create Profit Center Group  
 **T-Code:** KE51  
-![KE51 Create Profit Center Group](./screenshots/profit_center/KE51_Create_Profit_Center_Group.png.jpeg)
+![KE51 Create Profit Center Group](./screenshots/KE51_Create_Profit_Center_Group.png.jpeg)
 
 ---
 
 ### KE52 – Create / Change Profit Center  
-**T-Code:** KE52 / KE51  
-![KE52 Create Profit Center](./screenshots/profit_center/KE52_Create_Profit_Center.png.jpeg)
+**T-Code:** KE52  
+![KE52 Create Profit Center](./screenshots/KE52_Create_Profit_Center.png.jpeg)
 
 ---
 
 ### KS02 – Assign Profit Center to Cost Center  
 **T-Code:** KS02  
-![KS02 Assign Profit Center to Cost Center](./screenshots/profit_center/KS02_Assign_Profit_Center_to_Cost_Center.png.jpeg)
+![KS02 Assign Profit Center to Cost Center](./screenshots/KS02_Assign_Profit_Center_to_Cost_Center.png.jpeg)
 
 ---
 
 ### FB50 – Post FI Document (Stationary / Expense)  
 **T-Code:** FB50  
-![FB50 Post FI Document](./screenshots/profit_center/FB50_Post_FI_Document.png.jpeg)
+![FB50 Post FI Document](./screenshots/FB50_Post_FI_Document.png.jpeg)
 
 ---
 
 ### FB03 – Display FI Document / Verify Profit Center  
 **T-Code:** FB03  
-![FB50 Display Document](./screenshots/profit_center/FB50_Display_Document.png.jpeg)
+![FB50 Display Document](./screenshots/FB50_Display_Document.png.jpeg)
 
 ---
 
 ### FB60 – Post Supplier Invoice (Office Expense)  
 **T-Code:** FB60  
-![FB60 Post Supplier Invoice](./screenshots/profit_center/FB60_Post_Supplier_Invoice.png.jpeg)
+![FB60 Post Supplier Invoice](./screenshots/FB60_Post_Supplier_Invoice.png.jpeg)
 
 ---
 
-### S_ALR_87013326 – Profit Center Report (Actual / Plan / Variance)  
+### S_ALR_87013326 – Profit Center Report  
 **T-Code:** S_ALR_87013326  
-![S_ALR_87013326 Profit Center Report](./screenshots/profit_center/S_ALR_87013326_Profit_Center_Report.png.jpeg)
+![S_ALR_87013326 Report](./screenshots/S_ALR_87013326_Profit_Center_Report.png.jpeg)
 
 
 ##  Final Notes / What i Achieved
