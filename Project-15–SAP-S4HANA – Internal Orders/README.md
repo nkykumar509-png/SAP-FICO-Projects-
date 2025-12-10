@@ -1,4 +1,4 @@
-Statistical Internal Order for Telephone Expenses
+Project 15 – SAP S/4HANA Statistical Internal Order for Telephone Expenses
 
 Business Scenario 
 
@@ -93,3 +93,36 @@ Support management budgeting	Helps compare planned vs actual cost later
 ### S_ALR_87013019 – Cost Order Report (Statistical Order)  
 **T-Code:** S_ALR_87013019  
 ![S_ALR_87013019 – Cost Order Report](./screenshots/statistical%20order/S_ALR_87013019_Cost_Order_Report.png.jpeg)
+
+
+Project 15 – SAP S/4HANA Internal Orders (Real Order Scenario)
+
+Business Scenario – Real Internal Order (AP9848)
+
+Musashi Auto Pvt. Ltd. (MUPL) uses Real Internal Orders to collect and monitor production-related or departmental expenses.
+Unlike statistical orders, Real Orders collect costs and require settlement to cost centers or other CO objects.
+
+In this project, a Real Internal Order is created for Petrol Expenses. All postings made to the order accumulate as Actual Costs.
+At month-end, the accumulated cost is settled to cost centers based on predefined percentages.
+
+##  Objective
+
+| Goal                               | Result                                      |
+|------------------------------------|---------------------------------------------|
+| Create a Real Internal Order       | Used for collecting actual costs            |
+| Post Petrol expenses to the order  | FI → CO posting                             |
+| Maintain settlement rule           | 40% to MU2001, 60% to MU3001                |
+| Execute actual settlement (KO88)   | Order cost transferred to cost centers      |
+| View settlement reports            | Detailed sender/receiver values             |
+
+
+## Business Example
+
+| Doc No | G/L Account | Description       | Amount       | Cost Center | Order    | Posting Type  |
+|--------|-------------|-------------------|--------------|-------------|----------|---------------|
+| 1020   | 400606      | Petrol Expenses   | 100,000 INR  | —           | 1000546  | F-02 Debit    |
+| 1020   | 200101      | HDFC Bank A/c     | 100,000 INR  | —           | —        | F-02 Credit   |
+| —      | —           | Settlement 40%    | 44,000 INR   | MU2001      | From Order | KO88        |
+| —      | —           | Settlement 60%    | 66,000 INR   | MU3001      | From Order | KO88        |
+
+
