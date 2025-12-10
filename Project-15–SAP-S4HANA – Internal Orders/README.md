@@ -126,3 +126,64 @@ At month-end, the accumulated cost is settled to cost centers based on predefine
 | —      | —           | Settlement 60%    | 66,000 INR   | MU3001      | From Order | KO88        |
 
 
+Screenshots
+
+### FS00 – Create Petrol Expenses G/L Account  
+**T-Code:** FS00  
+![FS00_Petrol_Expenses](./screenshots/real%20order/FS00_Petrol_Expenses.png.jpeg)
+
+### FS00 – Create Internal Settlement G/L Account  
+**T-Code:** FS00  
+![FS00_Internal_Settlements](./screenshots/real%20order/FS00_Internal_Settlements.png.jpeg)
+
+### OKO6 – Maintain Allocation Structure  
+**T-Code:** OKO6  
+![OKO6_Maintain_Allocation_Structure](./screenshots/real%20order/OKO6_Maintain_Allocation_Structure.png.jpeg)
+
+### OKO7 – Maintain Allocation Structure Settings  
+**T-Code:** OKO7  
+![OKO7_Maintain_Allocation_Structure_Settings](./screenshots/real%20order/OKO7_Maintain_Allocation_Structure_Settings.png.jpeg)
+
+### KOBN – Maintain Settlement Document Number Range  
+**T-Code:** KOBN  
+![KOBN_Maintain_Setlement_Document_Number](./screenshots/real%20order/KOBN_Maintain_Setlement_Document_Number.png.jpeg)
+
+### KOT2_OPA – Create Real Order Type  
+**T-Code:** KOT2_OPA  
+![KOT2_Create_Real_Order_Type](./screenshots/real%20order/KOT2_Create_Real_Order_Type.png.jpeg)
+
+### KO01 – Create Real Internal Order  
+**T-Code:** KO01  
+![KO01_Create_Real_Order](./screenshots/real%20order/KO01_Create_Real_Order.png.jpeg)
+
+### KO01 / KO02 – Maintain Settlement Rules (40% / 60%)  
+**T-Codes:** KO01 / KO02  
+![KO01_Maintain_Settlement_Rules](./screenshots/real%20order/KO01_Maintain_Settlement_Rules.png.jpeg)
+
+### FB50 – Post Petrol Expense Invoice  
+**T-Code:** FB50  
+![FB50_Post_Petrol_Expense_Invoice](./screenshots/real%20order/FB50_Post_Petrol_Expense_Invoice.png.jpeg)
+
+### FB03 – Display Petrol Expense Document  
+**T-Code:** FB03  
+![FB50_Display_Document](./screenshots/real%20order/FB50_Display_Document.png.jpeg)
+
+### KOB1 – Display Actual Cost Line Items  
+**T-Code:** KOB1  
+![KOB1_Display_Cost_Line_Items](./screenshots/real%20order/KOB1_Display_Cost_Line_Items.png.jpeg)
+
+### KO88 – Execute Actual Settlement  
+**T-Code:** KO88  
+![KO88_Execute_Settlement](./screenshots/real%20order/KO88_Execute_Settlement.png.jpeg)
+
+### KO88 – Receiver Debits  
+**T-Code:** KO88  
+![KO88_Receiver_Debits](./screenshots/real%20order/KO88_Receiver_Debits.png.jpeg)
+
+### KO88 – Sender Debits  
+**T-Code:** KO88  
+![KO88_Sender_Debits](./screenshots/real%20order/KO88_Sender_Debits.png.jpeg)
+
+### S_ALR_87013019 – Cost Order Report (Real Order)  
+**T-Code:** S_ALR_87013019  
+![S_ALR_87013019_Cost_Order_Report](./screenshots/real%20order/S_ALR_87013019_Cost_Order_Report.png.jpeg)
