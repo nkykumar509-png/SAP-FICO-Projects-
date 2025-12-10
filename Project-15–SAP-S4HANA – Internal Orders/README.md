@@ -58,6 +58,27 @@ Support management budgeting	Helps compare planned vs actual cost later
 | Posting shown in Order Report KOB1 | ✔ |
 | Variance & reporting available | ✔ |
 
+
+## 🔧 SAP Configuration & Posting Flow – Real Internal Order (Overhead Order Settlement)
+
+| Step | Activity | T-Code | Purpose |
+|------|----------|--------|---------|
+| **01** | Create Petrol Expenses G/L Account | **FS00** | Expense account for posting |
+| **02** | Create Internal Settlement G/L Account | **FS00** | G/L to receive settlement postings |
+| **03** | Maintain Allocation Structure | **OKO6** | Defines how order cost is settled |
+| **04** | Maintain Allocation Structure Settings | **OKO7** | Assign source & settlement cost elements |
+| **05** | Maintain Number Range for Settlement Docs | **KOBN** | Enables settlement document numbering |
+| **06** | Create Real Order Type | **KOT2_OPA** | Defines behavior of real internal order |
+| **07** | Create Real Internal Order | **KO01** | Create master data for real order |
+| **08** | Maintain Settlement Rule | **KO01 / KO02** | 40% to MU2001, 60% to MU3001 |
+| **09** | Post Petrol Expense Invoice | **FB50** | FI → CO posting to internal order |
+| **10** | Display Posted Document | **FB03** | Verify FI posting |
+| **11** | Display Actual Cost Line Items | **KOB1** | Shows cost posted to real order |
+| **12** | Execute Actual Settlement | **KO88** | Transfer order cost to cost centers |
+| **13** | Display Receiver Debits | **KO88** | Shows settlement receiver values |
+| **14** | Display Sender Debits | **KO88** | Shows sender cleared value |
+| **15** | Display Order Cost Report | **S_ALR_87013019** | Complete settlement report |
+
 ### FS00 – Create Telephone Expenses G/L Account  
 **T-Code:** FS00  
 ![FS00 – Create Telephone Expenses](./screenshots/statistical%20order/FS00_Create_Telephone_Expenses.png.jpeg)
@@ -116,6 +137,26 @@ At month-end, the accumulated cost is settled to cost centers based on predefine
 | View settlement reports            | Detailed sender/receiver values             |
 
 
+##  SAP Configuration & Posting Flow – Real Internal Order (Overhead Order Settlement)
+
+| Step | Activity | T-Code | Purpose |
+|------|----------|--------|---------|
+| **01** | Create Petrol Expenses G/L Account | **FS00** | Expense account for posting |
+| **02** | Create Internal Settlement G/L Account | **FS00** | G/L to receive settlement postings |
+| **03** | Maintain Allocation Structure | **OKO6** | Defines how order cost is settled |
+| **04** | Maintain Allocation Structure Settings | **OKO7** | Assign source & settlement cost elements |
+| **05** | Maintain Number Range for Settlement Docs | **KOBN** | Enables settlement document numbering |
+| **06** | Create Real Order Type | **KOT2_OPA** | Defines behavior of real internal order |
+| **07** | Create Real Internal Order | **KO01** | Create master data for real order |
+| **08** | Maintain Settlement Rule | **KO01 / KO02** | 40% to MU2001, 60% to MU3001 |
+| **09** | Post Petrol Expense Invoice | **FB50** | FI → CO posting to internal order |
+| **10** | Display Posted Document | **FB03** | Verify FI posting |
+| **11** | Display Actual Cost Line Items | **KOB1** | Shows cost posted to real order |
+| **12** | Execute Actual Settlement | **KO88** | Transfer order cost to cost centers |
+| **13** | Display Receiver Debits | **KO88** | Shows settlement receiver values |
+| **14** | Display Sender Debits | **KO88** | Shows sender cleared value |
+| **15** | Display Order Cost Report | **S_ALR_87013019** | Complete settlement report |
+
 ## Business Example
 
 | Doc No | G/L Account | Description       | Amount       | Cost Center | Order    | Posting Type  |
@@ -125,6 +166,16 @@ At month-end, the accumulated cost is settled to cost centers based on predefine
 | —      | —           | Settlement 40%    | 44,000 INR   | MU2001      | From Order | KO88        |
 | —      | —           | Settlement 60%    | 66,000 INR   | MU3001      | From Order | KO88        |
 
+
+ Output
+
+✔ Petrol expenses posted to real order
+✔ Actual CO line items appear in KOB1
+✔ Settlement distributes cost:
+ • 44,000 → MU2001
+ • 66,000 → MU3001
+✔ KO88 settlement successful
+✔ Management report shows total ₹210,000 in Budget/Actual screen
 
 Screenshots
 
